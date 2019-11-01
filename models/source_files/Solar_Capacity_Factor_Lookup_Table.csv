@@ -1,0 +1,499 @@
+Technology,Country/area,Indicator,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018
+Solar photovoltaic,World,Electricity capacity (MW),808.2,1092.7,1437.9,1965.4,3051.6,4545.9,6084.7,8494.4,14713.0,22815.8,40275.0,72077.7,101571.0,135807.2,171596.5,217373.2,290975.3,383316.5,480619.1
+Solar photovoltaic,World,Electricity generation (GWh),807.6,1138.3,1411.2,1855.4,2498.1,3808.8,5472.7,7433.3,11907.3,20093.5,32160.4,62443.4,96351.8,131701.1,183943.4,242371.9,314060.4,425810.2,
+Solar photovoltaic,Africa,Electricity capacity (MW),10.9,13.1,15.4,18.2,22.3,26.6,35.3,47.8,64.6,108.1,194.8,267.8,347.0,660.6,1558.7,1925.5,2967.8,3778.1,5122.0
+Solar photovoltaic,Africa,Electricity generation (GWh),15.0,18.4,21.8,25.9,31.5,37.6,48.4,63.6,83.3,114.7,219.9,340.5,462.3,637.0,1794.1,3022.0,4206.0,6140.5,
+Solar photovoltaic,Algeria,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.1,49.1,219.1,400.0,410.0
+Solar photovoltaic,Algeria,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9,13.7,204.7,373.6,
+Solar photovoltaic,Angola,Electricity capacity (MW),0.0,0.0,0.2,0.2,0.4,0.6,0.8,2.7,4.8,5.3,7.1,7.7,9.6,10.8,12.0,12.9,13.4,13.4,13.4
+Solar photovoltaic,Angola,Electricity generation (GWh),0.0,0.0,0.3,0.3,0.6,0.9,1.1,3.8,6.8,7.5,10.1,11.0,13.6,15.3,17.0,18.3,18.3,18.3,
+Solar photovoltaic,Benin,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,1.2,2.9,2.9,2.9
+Solar photovoltaic,Benin,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,5.3,5.3,5.3,
+Solar photovoltaic,Botswana,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.5,1.5,1.7,1.7,2.9,2.9,2.9
+Solar photovoltaic,Botswana,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.9,2.0,2.5,2.6,4.5,4.5,
+Solar photovoltaic,Burkina Faso,Electricity capacity (MW),0.5,0.5,0.5,0.7,1.1,1.2,1.2,1.6,2.3,3.0,3.6,5.8,5.8,6.3,7.0,8.0,10.0,46.8,61.8
+Solar photovoltaic,Burkina Faso,Electricity generation (GWh),0.8,0.8,0.8,1.1,1.8,1.9,1.9,2.6,3.7,4.9,5.8,9.4,9.4,10.2,11.3,13.0,16.2,28.8,
+Solar photovoltaic,Burundi,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.3,0.4,0.4,0.6,0.8,1.6,2.6,2.8,3.1,4.1,5.1,5.1
+Solar photovoltaic,Burundi,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.2,0.3,0.5,0.6,0.6,0.9,1.2,2.5,4.0,4.4,4.8,6.4,7.9,
+Solar photovoltaic,Cabo Verde,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.5,5.5,5.6,5.7,5.8,6.1,6.2,6.2,7.5
+Solar photovoltaic,Cabo Verde,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.1,9.0,7.5,7.3,6.6,6.2,5.6,6.7,
+Solar photovoltaic,Cameroon,Electricity capacity (MW),0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.2,0.2,0.5,1.0,2.4,2.8,3.6,5.6,7.4,9.0,11.6,14.2
+Solar photovoltaic,Cameroon,Electricity generation (GWh),0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.3,0.3,0.7,1.4,3.3,3.8,4.9,7.7,10.2,12.4,15.9,
+Solar photovoltaic,Cent Afr Rep,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.3,0.3,0.3,0.3,0.3,0.3,0.3
+Solar photovoltaic,Cent Afr Rep,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.1,0.1,0.3,0.4,0.4,0.4,0.4,0.4,0.4,
+Solar photovoltaic,Chad,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.2,0.2,0.2
+Solar photovoltaic,Chad,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.3,0.3,0.3,
+Solar photovoltaic,Comoros,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Comoros,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Congo DR,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.4,0.6,0.7,3.2,5.2,6.8
+Solar photovoltaic,Congo DR,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.5,0.9,0.9,4.6,7.4,
+Solar photovoltaic,Congo Rep,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.5,0.5,0.5,0.6,0.6
+Solar photovoltaic,Congo Rep,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.3,0.3,0.6,0.6,0.7,
+Solar photovoltaic,Cote d Ivoire,Electricity capacity (MW),0.0,0.1,0.1,0.1,0.1,0.2,0.2,0.4,1.1,1.4,1.6,1.7,2.0,2.9,3.8,5.1,5.1,8.3,8.3
+Solar photovoltaic,Cote d Ivoire,Electricity generation (GWh),0.0,0.0,0.0,0.1,0.1,0.1,0.2,0.2,0.2,0.5,1.5,1.9,2.1,2.2,2.6,3.9,5.1,6.8,
+Solar photovoltaic,Djibouti,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,0.3,0.3,0.3,0.3,0.3,0.3
+Solar photovoltaic,Djibouti,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,0.5,0.5,0.5,0.5,
+Solar photovoltaic,Egypt,Electricity capacity (MW),0.1,0.5,0.6,0.6,0.6,0.6,0.6,0.7,0.9,1.3,15.0,15.0,15.0,15.0,15.0,25.0,48.0,169.0,750.0
+Solar photovoltaic,Egypt,Electricity generation (GWh),0.2,0.8,1.0,1.0,1.0,1.0,1.0,1.2,1.5,2.2,25.2,25.2,25.2,25.2,25.2,42.0,80.6,578.0,
+Solar photovoltaic,Eq Guinea,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Solar photovoltaic,Eq Guinea,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+Solar photovoltaic,Eritrea,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,0.3,0.7,2.7,2.7
+Solar photovoltaic,Eritrea,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6,0.6,1.3,5.1,
+Solar photovoltaic,Eswatini,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.2,0.2,0.3,0.6,0.7,0.8,0.8,0.8,0.8,0.9,0.9,0.9
+Solar photovoltaic,Eswatini,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.1,0.2,0.2,0.3,0.4,0.4,0.9,1.1,1.1,1.1,1.2,1.2,1.3,1.3,
+Solar photovoltaic,Ethiopia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,1.1,3.3,9.1,9.8,13.9,12.2,11.0
+Solar photovoltaic,Ethiopia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.4,0.8,2.2,5.8,15.6,18.0,20.8,22.4,
+Solar photovoltaic,Gabon,Electricity capacity (MW),0.0,0.0,0.1,0.1,0.1,0.1,0.2,0.2,0.4,1.4,1.4,1.4,1.4,1.4,1.4,1.4,1.4,1.4,1.4
+Solar photovoltaic,Gabon,Electricity generation (GWh),0.0,0.0,0.1,0.1,0.1,0.1,0.3,0.3,0.6,1.9,1.9,1.9,1.9,1.9,1.9,1.9,1.9,1.9,
+Solar photovoltaic,Gambia,Electricity capacity (MW),0.0,0.0,0.1,0.2,0.4,0.6,0.7,1.2,1.4,1.6,1.8,1.9,2.0,2.0,2.1,2.2,2.2,2.2,2.2
+Solar photovoltaic,Gambia,Electricity generation (GWh),0.0,0.0,0.1,0.3,0.6,1.0,1.2,1.9,2.2,2.6,2.8,3.0,3.2,3.2,3.4,3.5,3.5,3.5,
+Solar photovoltaic,Ghana,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,4.8,29.7,33.6,38.6,63.6
+Solar photovoltaic,Ghana,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,5.9,10.9,33.6,35.6,
+Solar photovoltaic,Guinea,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6,0.6,0.6,0.6,3.4,3.4,13.3,13.3,13.3,13.4
+Solar photovoltaic,Guinea,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9,0.9,0.9,1.0,5.3,5.3,20.5,20.5,20.5,
+Solar photovoltaic,Guinea Bissau,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,0.3,0.3,1.2
+Solar photovoltaic,Guinea Bissau,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,0.5,
+Solar photovoltaic,Kenya,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.2,1.4,3.4,7.2,16.7,30.7,31.8,37.9,92.5
+Solar photovoltaic,Kenya,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,0.3,0.3,2.2,5.2,11.0,25.5,47.0,48.6,58.0,
+Solar photovoltaic,Lesotho,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.4,0.4,0.4,0.4,0.4
+Solar photovoltaic,Lesotho,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.8,0.8,0.8,0.8,
+Solar photovoltaic,Liberia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,2.4,2.6
+Solar photovoltaic,Liberia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.1,3.4,
+Solar photovoltaic,Libya,Electricity capacity (MW),0.0,0.0,0.0,0.2,0.7,1.2,1.7,2.2,2.7,3.2,3.7,4.2,4.9,4.9,4.9,4.9,4.9,5.1,5.1
+Solar photovoltaic,Libya,Electricity generation (GWh),0.0,0.0,0.0,0.3,1.1,1.9,2.7,3.5,4.3,5.1,5.9,6.7,7.8,7.8,7.8,7.8,7.8,7.8,
+Solar photovoltaic,Madagascar,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.1,0.1,0.3,0.4,0.8,1.1,1.5,2.0,2.6,5.0,7.0,9.0,11.0,13.0,33.0
+Solar photovoltaic,Madagascar,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.2,0.2,0.5,0.7,1.4,1.9,2.6,3.5,4.5,8.7,12.1,15.6,19.1,22.6,
+Solar photovoltaic,Malawi,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.3,0.5,0.7,1.8,2.7,5.4,7.7,12.1,12.1,19.2,22.7
+Solar photovoltaic,Malawi,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.5,0.5,1.0,1.5,3.6,5.5,11.1,15.8,24.9,24.9,39.4,
+Solar photovoltaic,Mali,Electricity capacity (MW),0.1,0.3,0.4,0.8,1.4,1.7,2.5,3.4,3.9,3.9,6.4,9.9,15.7,15.7,16.2,17.2,17.5,19.6,19.6
+Solar photovoltaic,Mali,Electricity generation (GWh),0.1,0.4,0.7,1.3,2.3,2.8,4.1,5.5,6.4,6.4,10.5,16.0,25.5,25.5,26.2,27.9,28.4,31.8,
+Solar photovoltaic,Mauritania,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,18.2,18.2,34.8,84.8,86.1
+Solar photovoltaic,Mauritania,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25.8,30.0,30.1,56.6,140.0,
+Solar photovoltaic,Mauritius,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.4,2.5,18.2,18.7,20.7,29.3,30.0
+Solar photovoltaic,Mauritius,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9,2.7,24.6,25.9,30.3,39.2,
+Solar photovoltaic,Mayotte,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.8,8.3,12.4,13.1,13.1,13.2,13.2,13.3,15.1,15.1
+Solar photovoltaic,Mayotte,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,1.3,6.1,13.9,14.5,14.6,14.7,14.7,14.8,16.9,
+Solar photovoltaic,Morocco,Electricity capacity (MW),6.7,7.0,7.7,8.4,9.1,10.0,10.8,11.9,12.8,13.4,13.5,14.2,15.2,15.2,19.6,19.8,21.9,25.5,205.5
+Solar photovoltaic,Morocco,Electricity generation (GWh),8.0,8.4,9.2,10.1,10.9,12.0,13.0,14.3,15.4,16.1,16.3,17.0,18.2,18.2,23.5,24.0,26.2,30.5,
+Solar photovoltaic,Mozambique,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,1.5,4.9,7.0,10.0,13.0,15.0,17.0
+Solar photovoltaic,Mozambique,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.4,1.4,1.6,1.6,1.6,
+Solar photovoltaic,Namibia,Electricity capacity (MW),1.0,1.2,1.5,1.6,1.6,1.6,1.9,2.4,3.0,3.6,4.2,7.4,11.1,14.6,16.5,21.0,36.0,69.8,87.5
+Solar photovoltaic,Namibia,Electricity generation (GWh),1.8,2.1,2.8,2.9,2.9,3.0,3.5,4.5,5.5,6.8,7.8,13.7,20.6,27.1,30.6,38.6,56.6,108.2,
+Solar photovoltaic,Niger,Electricity capacity (MW),0.5,0.6,0.6,0.7,0.8,1.0,1.1,1.1,1.2,1.2,2.1,3.0,4.0,5.0,6.0,7.0,8.0,9.0,20.0
+Solar photovoltaic,Niger,Electricity generation (GWh),0.8,1.0,1.0,1.1,1.3,1.6,1.8,1.8,2.0,2.0,3.4,4.9,6.5,8.2,9.8,11.4,13.1,14.7,
+Solar photovoltaic,Nigeria,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.2,15.4,15.6,17.0,18.4,18.9,19.1
+Solar photovoltaic,Nigeria,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,22.5,22.7,23.0,25.1,27.2,27.9,
+Solar photovoltaic,Reunion,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.3,0.5,3.0,5.8,10.0,42.5,89.3,131.1,153.0,156.0,167.0,186.6,186.4,187.8,190.0
+Solar photovoltaic,Reunion,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.3,1.4,2.8,4.8,20.5,76.1,141.8,190.4,224.2,235.9,244.8,259.5,256.5,
+Solar photovoltaic,Rwanda,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,0.3,0.3,0.3,0.3,0.5,0.9,10.0,14.0,19.1,27.2,30.3
+Solar photovoltaic,Rwanda,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.3,0.4,0.3,0.4,0.6,1.2,6.9,21.2,86.8,94.2,
+Solar photovoltaic,Saint Helena,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Saint Helena,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Sao Tome Prn,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.2,0.3,0.3
+Solar photovoltaic,Sao Tome Prn,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.2,0.4,
+Solar photovoltaic,Senegal,Electricity capacity (MW),1.0,1.1,1.3,1.4,1.6,1.7,1.8,2.0,2.3,2.6,3.3,4.8,5.9,7.0,10.0,11.0,43.0,113.0,134.0
+Solar photovoltaic,Senegal,Electricity generation (GWh),1.7,1.9,2.2,2.4,2.7,2.9,3.1,3.4,3.9,4.4,5.6,8.2,10.1,11.9,17.6,19.7,23.3,101.3,
+Solar photovoltaic,Seychelles,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,1.0,1.4,1.9,2.6,3.5
+Solar photovoltaic,Seychelles,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,1.1,1.6,2.4,3.1,
+Solar photovoltaic,Sierra Leone,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.2,0.4,0.4,0.4,0.5,3.8,4.2
+Solar photovoltaic,Sierra Leone,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.2,0.3,0.6,0.6,0.6,0.7,5.6,
+Solar photovoltaic,Somalia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.2,4.7,6.9,7.1
+Solar photovoltaic,Somalia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.3,7.3,10.8,
+Solar photovoltaic,South Africa,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,5.7,11.3,261.6,1062.9,1251.7,1974.0,2186.4,2558.8
+Solar photovoltaic,South Africa,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.3,3.8,7.6,53.7,1074.6,2136.2,2842.1,3725.1,
+Solar photovoltaic,South Sudan,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.2,0.2,0.4,0.4,0.5
+Solar photovoltaic,South Sudan,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.2,0.2,0.6,0.7,
+Solar photovoltaic,Sudan,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.1,0.2,0.2,0.4,0.5,0.9,2.3,3.5,8.0,8.0,8.0,11.1,12.3,12.6,17.6
+Solar photovoltaic,Sudan,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.2,0.3,0.4,0.7,0.9,1.5,3.8,5.8,13.3,13.3,13.3,18.5,20.5,
+Solar photovoltaic,Tanzania,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,1.2,3.7,11.2,12.7,18.4,21.9,25.4
+Solar photovoltaic,Tanzania,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.5,2.1,6.6,20.1,22.9,33.0,39.3,
+Solar photovoltaic,Togo,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.3,0.4,0.5,1.0,2.0,2.5,3.0,3.0
+Solar photovoltaic,Togo,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.3,0.5,0.6,0.8,1.5,3.0,3.8,4.4,
+Solar photovoltaic,Tunisia,Electricity capacity (MW),0.8,1.0,1.1,1.1,1.2,1.2,1.2,1.2,1.3,1.4,1.6,2.9,5.4,9.1,16.6,26.7,37.1,47.1,47.1
+Solar photovoltaic,Tunisia,Electricity generation (GWh),1.2,1.4,1.6,1.7,1.7,1.7,1.7,1.8,1.9,2.0,2.3,4.3,7.8,13.1,24.0,38.7,70.0,112.0,
+Solar photovoltaic,Uganda,Electricity capacity (MW),0.2,0.8,1.1,1.7,2.3,3.0,5.4,7.7,11.7,14.2,14.9,16.2,17.3,18.5,20.0,22.0,24.0,46.0,48.0
+Solar photovoltaic,Uganda,Electricity generation (GWh),0.3,1.2,1.6,2.5,3.3,4.4,7.9,11.2,17.0,20.6,21.7,23.6,25.2,26.9,29.1,32.0,38.6,60.8,
+Solar photovoltaic,Westn Sahara,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Westn Sahara,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Zambia,Electricity capacity (MW),0.0,0.1,0.2,0.2,0.3,0.6,1.0,1.1,1.2,1.2,1.2,1.4,1.4,1.6,2.0,2.5,3.0,3.5,5.0
+Solar photovoltaic,Zambia,Electricity generation (GWh),0.0,0.2,0.3,0.3,0.5,1.0,1.7,1.9,2.1,2.1,2.1,2.4,2.4,2.8,3.5,4.3,5.2,6.1,
+Solar photovoltaic,Zimbabwe,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.9,2.0,2.7,4.3,5.1,6.3,10.6
+Solar photovoltaic,Zimbabwe,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,1.6,3.4,4.7,7.6,8.9,10.9,
+Solar photovoltaic,Asia,Electricity capacity (MW),370.2,504.7,710.1,948.2,1236.4,1602.9,1956.6,2276.0,2848.7,3696.6,5494.7,9608.9,15980.0,34485.6,56206.9,84448.7,136134.6,206009.9,274646.8
+Solar photovoltaic,Asia,Electricity generation (GWh),402.8,608.0,734.8,968.9,1246.4,1608.6,1984.5,2348.9,2870.9,3759.8,5322.2,8399.8,14074.6,26983.0,55332.4,88973.3,135933.7,207784.2,
+Solar photovoltaic,Afghanistan,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,16.1,16.8,18.3,18.9,20.2,22.0,21.5
+Solar photovoltaic,Afghanistan,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,28.3,29.6,32.3,33.3,35.5,35.7,
+Solar photovoltaic,Bangladesh,Electricity capacity (MW),0.0,0.0,0.0,0.6,1.4,2.5,4.0,6.6,11.1,18.3,32.3,42.6,66.4,94.6,121.9,144.8,155.2,200.2,201.1
+Solar photovoltaic,Bangladesh,Electricity generation (GWh),0.0,0.0,0.1,0.9,1.9,3.4,5.4,9.0,15.2,25.1,44.3,58.4,90.9,129.6,166.9,198.4,212.6,274.3,
+Solar photovoltaic,Bhutan,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.1,0.3,0.3,0.3,0.4,0.4,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+Solar photovoltaic,Bhutan,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.2,0.4,0.4,0.5,0.5,0.5,0.7,0.7,0.7,0.7,0.7,0.7,0.7,
+Solar photovoltaic,Brunei Darsm,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.2,1.2,1.2,1.2,1.2,1.2,1.2,1.2,1.2
+Solar photovoltaic,Brunei Darsm,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,1.6,1.7,1.7,1.6,1.3,1.1,1.1,
+Solar photovoltaic,Cambodia,Electricity capacity (MW),0.1,0.2,0.3,0.3,0.4,0.5,0.7,1.6,1.9,2.1,2.2,3.9,4.7,5.9,9.2,12.2,18.4,28.4,27.8
+Solar photovoltaic,Cambodia,Electricity generation (GWh),0.1,0.3,0.4,0.5,0.5,0.8,1.0,2.3,2.8,3.1,3.2,5.7,6.8,8.5,13.3,17.7,26.6,31.3,
+Solar photovoltaic,China,Electricity capacity (MW),33.5,38.0,56.5,66.6,76.6,141.2,160.2,199.0,253.0,414.8,1021.8,3107.8,6717.8,17747.8,28387.8,43537.8,77787.8,130801.3,175015.9
+Solar photovoltaic,China,Electricity generation (GWh),37.1,43.1,67.8,81.2,93.6,137.1,155.1,191.4,234.9,345.0,729.1,1997.8,4390.8,8797.6,23751.0,39977.7,67865.2,118257.6,
+Solar photovoltaic,China HK SAR,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,China HK SAR,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,China Mac SAR,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,China Mac SAR,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Chinese Taipei,Electricity capacity (MW),0.1,0.2,0.3,0.5,0.6,1.0,1.4,2.4,5.6,9.5,22.0,117.9,222.5,392.0,620.2,842.2,1245.0,1767.7,2617.7
+Solar photovoltaic,Chinese Taipei,Electricity generation (GWh),0.1,0.3,0.3,0.5,0.6,1.0,1.5,2.2,4.6,9.2,25.6,70.3,173.1,337.9,551.7,875.5,1132.2,1691.6,
+Solar photovoltaic,India,Electricity capacity (MW),1.1,5.5,6.7,7.9,7.8,11.6,9.6,25.1,27.7,39.4,65.4,563.3,978.6,1445.8,3444.0,5365.0,9650.5,17923.3,26886.6
+Solar photovoltaic,India,Electricity generation (GWh),1.5,7.5,9.1,10.6,10.5,15.6,13.0,34.5,37.4,46.0,65.1,305.4,969.4,1600.1,2739.4,5619.2,9821.9,17768.0,
+Solar photovoltaic,Indonesia,Electricity capacity (MW),0.3,0.6,0.9,1.3,1.3,1.4,2.2,5.7,9.5,13.4,14.6,17.0,26.4,38.4,41.6,50.6,57.7,60.0,61.3
+Solar photovoltaic,Indonesia,Electricity generation (GWh),0.7,1.2,1.9,2.6,2.7,2.8,4.5,11.5,19.2,27.1,29.4,32.6,47.9,64.5,72.4,88.9,104.9,115.5,
+Solar photovoltaic,Japan,Electricity capacity (MW),330.0,453.0,637.0,860.0,1132.0,1421.0,1700.0,1909.0,2131.0,2611.0,3599.0,4890.0,6430.0,12107.0,19334.0,28615.0,38438.0,44226.0,55500.0
+Solar photovoltaic,Japan,Electricity generation (GWh),357.0,547.0,644.0,858.0,1118.0,1420.0,1721.0,1972.0,2206.0,2657.0,3543.0,4839.0,6613.0,12880.0,22952.0,34802.0,45761.0,55068.0,
+Solar photovoltaic,Kazakhstan,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,5.0,57.1,57.3,58.8,209.0
+Solar photovoltaic,Kazakhstan,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,1.3,46.2,88.4,93.0,
+Solar photovoltaic,Korea DPR,Electricity capacity (MW),0.0,0.0,0.0,0.3,0.3,0.4,0.4,0.5,0.5,0.7,1.0,2.0,2.6,3.9,5.4,8.2,10.3,10.7,10.7
+Solar photovoltaic,Korea DPR,Electricity generation (GWh),0.0,0.0,0.0,0.3,0.4,0.5,0.5,0.6,0.6,0.9,1.3,2.6,3.3,5.0,6.9,10.6,13.3,13.8,
+Solar photovoltaic,Korea Rep,Electricity capacity (MW),4.0,5.0,5.0,6.0,9.0,14.0,36.0,81.0,357.0,524.0,650.0,730.0,1024.0,1555.0,2481.0,3615.0,4502.0,5835.0,7862.4
+Solar photovoltaic,Korea Rep,Electricity generation (GWh),5.0,6.0,7.0,8.0,10.0,15.0,31.0,70.0,285.0,566.0,772.0,917.0,1103.0,1605.0,2557.0,3975.0,5123.0,7057.0,
+Solar photovoltaic,Kyrgyzstan,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Kyrgyzstan,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Lao PDR,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,2.9,3.3,3.6,6.7,6.7
+Solar photovoltaic,Lao PDR,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.7,4.0,4.5,5.0,9.2,
+Solar photovoltaic,Malaysia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,0.5,0.5,0.5,25.1,97.1,165.8,229.1,292.0,317.4,437.8
+Solar photovoltaic,Malaysia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6,0.7,0.7,0.7,0.7,30.9,53.7,190.5,275.4,326.2,333.0,
+Solar photovoltaic,Maldives,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.2,0.3,0.3,1.4,1.8,4.1,4.1,6.8,9.5,9.5
+Solar photovoltaic,Maldives,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.3,0.4,0.4,2.1,2.8,6.2,6.2,10.2,14.3,
+Solar photovoltaic,Mongolia,Electricity capacity (MW),0.0,0.0,0.0,0.2,0.2,0.2,0.2,0.2,3.8,3.8,4.6,4.6,4.6,5.0,5.0,5.0,15.0,47.7,62.7
+Solar photovoltaic,Mongolia,Electricity generation (GWh),0.0,0.0,0.0,0.3,0.3,0.3,0.3,0.3,6.5,6.5,7.8,7.8,7.8,7.8,8.4,8.3,8.1,27.5,
+Solar photovoltaic,Myanmar,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.4,1.4,2.8,4.2,7.7,25.7,54.9,54.9,54.9
+Solar photovoltaic,Myanmar,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.3,0.6,2.1,4.1,6.2,11.3,37.8,80.7,80.7,
+Solar photovoltaic,Nepal,Electricity capacity (MW),0.0,0.3,0.6,1.0,1.4,1.9,1.8,1.6,2.0,3.8,4.3,7.8,9.3,10.8,11.5,13.4,13.6,53.3,53.3
+Solar photovoltaic,Nepal,Electricity generation (GWh),0.0,0.4,0.9,1.5,2.1,2.6,2.5,2.2,2.9,5.4,6.1,11.1,13.2,15.5,16.5,19.1,19.4,76.2,
+Solar photovoltaic,Pakistan,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.1,3.7,9.3,18.6,45.7,100.5,165.2,230.0,410.5,741.7,1568.1
+Solar photovoltaic,Pakistan,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,1.6,5.3,13.4,26.8,65.8,144.7,238.0,367.7,659.2,889.3,
+Solar photovoltaic,Philippines,Electricity capacity (MW),0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,23.0,165.3,758.6,886.1,897.1
+Solar photovoltaic,Philippines,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,1.5,1.4,1.3,1.3,1.3,1.3,1.2,1.3,1.4,16.6,139.1,1098.1,1202.2,
+Solar photovoltaic,Singapore,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,1.5,2.9,4.6,7.7,11.8,25.5,45.8,96.8,116.1,150.0
+Solar photovoltaic,Singapore,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,1.6,3.1,4.9,8.2,12.6,27.1,48.7,103.0,104.0,
+Solar photovoltaic,Sri Lanka,Electricity capacity (MW),0.3,0.9,1.6,2.3,2.9,3.6,4.2,4.9,5.6,6.3,7.0,9.1,9.2,12.5,19.1,30.6,83.0,130.9,160.5
+Solar photovoltaic,Sri Lanka,Electricity generation (GWh),0.5,1.4,2.3,3.3,4.2,5.2,6.2,7.2,8.2,9.2,10.2,13.3,13.4,16.1,29.9,32.4,48.4,82.2,
+Solar photovoltaic,Tajikistan,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Tajikistan,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Thailand,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,30.4,32.3,32.4,37.0,48.6,78.7,376.7,823.5,1298.5,1419.6,2446.1,2697.3,2720.2
+Solar photovoltaic,Thailand,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,36.5,38.8,38.9,44.4,58.3,94.4,493.0,1252.0,1928.0,2378.0,3377.0,4543.0,
+Solar photovoltaic,Timor Leste,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6,0.6,0.6,0.6,0.6,0.6
+Solar photovoltaic,Timor Leste,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9,0.9,0.9,0.9,0.9,
+Solar photovoltaic,Turkmenistan,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Turkmenistan,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Uzbekistan,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.1,1.1,2.3,3.2,3.5
+Solar photovoltaic,Uzbekistan,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.0,2.2,4.6,4.6,
+Solar photovoltaic,Viet Nam,Electricity capacity (MW),0.7,0.8,1.0,1.1,1.5,2.6,4.2,4.2,4.2,4.9,5.9,5.9,5.9,5.9,6.7,6.7,6.7,9.4,106.4
+Solar photovoltaic,Viet Nam,Electricity generation (GWh),0.7,0.8,1.0,1.1,1.5,2.6,4.2,4.2,4.2,4.9,5.9,5.9,5.9,5.9,6.7,6.7,6.7,9.4,
+Solar photovoltaic,C America + Carib,Electricity capacity (MW),2.5,3.9,5.1,6.5,7.8,9.7,14.5,20.0,27.1,47.5,75.4,108.7,167.7,267.3,340.8,922.1,1148.6,1490.1,1726.2
+Solar photovoltaic,C America + Carib,Electricity generation (GWh),3.8,5.9,7.5,9.6,11.6,13.9,19.8,24.5,31.7,44.3,70.8,128.2,259.8,434.1,507.1,1229.1,1933.8,2273.5,
+Solar photovoltaic,Anguilla,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,1.1,1.1,2.1,2.1,1.1
+Solar photovoltaic,Anguilla,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.9,1.5,2.4,2.3,
+Solar photovoltaic,Antigua Barb,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.3,0.3,0.4,0.4,3.4,3.5,3.9,7.9
+Solar photovoltaic,Antigua Barb,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.5,0.5,0.6,0.6,5.4,5.5,6.1,
+Solar photovoltaic,Aruba,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.3,1.0,1.6,4.9,6.1,6.1,6.1,6.1
+Solar photovoltaic,Aruba,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.5,1.5,2.4,7.4,9.2,9.2,8.6,
+Solar photovoltaic,Bahamas,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.3,0.4,0.6,0.6,1.3,1.3,1.4,1.3,1.3
+Solar photovoltaic,Bahamas,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.3,0.5,0.6,1.0,1.0,2.0,2.0,2.2,2.1,
+Solar photovoltaic,Barbados,Electricity capacity (MW),0.0,0.1,0.1,0.1,0.1,0.2,0.2,0.6,0.6,0.8,1.0,1.7,2.2,2.8,6.5,9.0,19.0,19.0,24.0
+Solar photovoltaic,Barbados,Electricity generation (GWh),0.0,0.2,0.2,0.2,0.2,0.3,0.3,0.9,0.9,1.2,1.6,2.6,3.4,4.4,10.1,14.0,29.5,29.5,
+Solar photovoltaic,Belize,Electricity capacity (MW),0.0,0.1,0.1,0.1,0.2,0.3,0.3,0.4,0.5,0.6,0.7,0.8,1.9,1.9,2.6,3.9,3.9,3.9,4.2
+Solar photovoltaic,Belize,Electricity generation (GWh),0.0,0.1,0.1,0.2,0.2,0.4,0.4,0.5,0.7,0.8,0.9,1.1,2.6,2.6,3.5,5.3,5.3,5.3,
+Solar photovoltaic,BES Islands,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,2.2,4.5,4.5
+Solar photovoltaic,BES Islands,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,3.1,4.0,
+Solar photovoltaic,Br Virgin Is,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.1,0.2,0.2,0.2,0.2
+Solar photovoltaic,Br Virgin Is,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.1,0.3,0.3,0.3,
+Solar photovoltaic,Cayman Is,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.8,8.8,9.9
+Solar photovoltaic,Cayman Is,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.5,14.3,
+Solar photovoltaic,Costa Rica,Electricity capacity (MW),0.2,0.6,1.1,1.7,2.0,2.6,3.2,3.8,4.6,5.0,6.2,6.8,9.9,12.7,16.7,22.5,23.6,28.0,28.0
+Solar photovoltaic,Costa Rica,Electricity generation (GWh),0.3,0.8,1.5,2.3,2.8,3.6,4.4,5.2,6.3,7.0,8.6,9.5,12.6,17.7,23.3,31.4,32.8,34.0,
+Solar photovoltaic,Cuba,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6,11.0,22.0,23.8,37.0,65.5,96.2
+Solar photovoltaic,Cuba,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,15.1,112.8,94.2,125.6,143.0,74.4,
+Solar photovoltaic,Curacao,Electricity capacity (MW),0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,3.1,7.7,10.1,17.0,18.0,18.0
+Solar photovoltaic,Curacao,Electricity generation (GWh),0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,5.3,13.2,17.3,29.1,30.9,
+Solar photovoltaic,Dominica,Electricity capacity (MW),0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.6,0.6,0.6
+Solar photovoltaic,Dominica,Electricity generation (GWh),0.1,0.1,0.1,0.1,0.2,0.2,0.2,0.3,0.3,0.3,0.3,0.3,0.4,0.4,0.4,0.4,0.4,0.4,
+Solar photovoltaic,Dominican Rep,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.3,5.8,12.7,22.7,68.1,102.7,166.3
+Solar photovoltaic,Dominican Rep,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.1,9.4,18.3,32.4,74.6,139.1,
+Solar photovoltaic,El Salvador,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,12.5,13.9,23.1,24.2,121.2,204.6
+Solar photovoltaic,El Salvador,Electricity generation (GWh),0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,21.6,22.0,27.5,44.8,184.5,
+Solar photovoltaic,Grenada,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.3,0.3,0.5,0.7,1.0,2.2,2.2,2.4
+Solar photovoltaic,Grenada,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.9,1.3,2.3,3.1,
+Solar photovoltaic,Guadeloupe,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.4,1.2,2.5,3.7,10.9,22.4,28.5,60.0,66.6,66.6,67.1,68.0,70.0,70.0
+Solar photovoltaic,Guadeloupe,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.3,0.9,2.0,3.0,5.0,17.3,33.4,91.8,98.6,102.7,101.5,93.8,92.5,
+Solar photovoltaic,Guatemala,Electricity capacity (MW),0.1,0.1,0.2,0.2,0.2,0.2,0.3,0.3,0.4,0.5,0.6,0.8,1.5,2.6,10.4,93.3,93.3,99.3,113.5
+Solar photovoltaic,Guatemala,Electricity generation (GWh),0.1,0.2,0.2,0.2,0.3,0.3,0.4,0.4,0.6,0.7,0.8,1.1,2.1,3.6,14.6,160.8,203.3,209.7,
+Solar photovoltaic,Haiti,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.6,1.1,1.4,1.5,1.9,1.9,2.4,2.6
+Solar photovoltaic,Haiti,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9,0.9,1.9,2.3,2.4,3.0,3.1,4.0,
+Solar photovoltaic,Honduras,Electricity capacity (MW),1.6,1.8,2.0,2.1,2.4,2.7,2.9,3.2,3.2,3.5,3.7,4.5,5.2,5.2,5.2,393.2,414.2,453.8,484.8
+Solar photovoltaic,Honduras,Electricity generation (GWh),2.5,2.7,2.9,3.3,3.7,4.0,4.5,4.5,4.9,5.2,6.2,7.1,7.1,7.1,7.1,424.3,884.8,927.7,
+Solar photovoltaic,Jamaica,Electricity capacity (MW),0.0,0.1,0.1,0.1,0.2,0.2,0.2,0.4,0.6,0.7,1.0,1.5,1.8,2.1,4.1,6.5,27.5,55.5,55.5
+Solar photovoltaic,Jamaica,Electricity generation (GWh),0.0,0.2,0.2,0.2,0.3,0.3,0.3,0.7,1.0,1.2,1.7,2.5,3.0,3.5,6.9,10.6,13.0,44.0,
+Solar photovoltaic,Martinique,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,2.5,4.0,7.3,14.2,26.4,48.0,60.0,62.0,62.5,65.3,66.5,66.5,66.5
+Solar photovoltaic,Martinique,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,5.3,11.5,19.0,38.4,79.6,75.0,84.0,81.0,82.0,73.3,
+Solar photovoltaic,Montserrat,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Montserrat,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Nicaragua,Electricity capacity (MW),0.1,0.1,0.2,0.3,0.5,0.7,1.0,1.5,2.4,2.9,3.5,4.5,6.3,6.8,9.3,10.3,18.9,30.2,30.3
+Solar photovoltaic,Nicaragua,Electricity generation (GWh),0.1,0.2,0.3,0.5,0.6,0.9,1.3,2.2,3.4,4.1,4.9,6.3,8.8,9.6,12.6,14.8,26.8,36.7,
+Solar photovoltaic,Panama,Electricity capacity (MW),0.2,0.4,0.5,0.6,0.6,0.8,0.8,1.0,1.3,1.5,1.9,2.4,3.0,3.7,6.1,49.3,93.0,146.7,146.7
+Solar photovoltaic,Panama,Electricity generation (GWh),0.3,0.6,0.7,0.9,0.9,1.0,1.2,1.4,1.8,2.1,2.6,3.3,4.2,5.2,6.5,21.6,76.5,161.1,
+Solar photovoltaic,Puerto Rico,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.8,3.8,3.8,6.9,57.9,72.9,88.4,133.4,165.2,165.2
+Solar photovoltaic,Puerto Rico,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,0.8,0.8,17.8,39.9,48.3,94.1,117.9,159.2,
+Solar photovoltaic,St Barth,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Solar photovoltaic,St Barth,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+Solar photovoltaic,St Kitts Nevis,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,1.4,1.4,1.9,1.9,1.9
+Solar photovoltaic,St Kitts Nevis,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6,2.3,2.3,3.1,3.1,
+Solar photovoltaic,St Lucia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.8,0.8,0.8,3.8
+Solar photovoltaic,St Lucia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,1.2,1.3,1.3,
+Solar photovoltaic,St Maarten,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,St Maarten,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,St Martin,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.4,1.6,2.6,1.6,0.1,0.1
+Solar photovoltaic,St Martin,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.3,2.6,4.3,2.6,0.2,
+Solar photovoltaic,St Vincent Gren,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.4,0.4,0.8,1.2,1.3,1.3
+Solar photovoltaic,St Vincent Gren,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.6,1.2,1.9,2.0,
+Solar photovoltaic,Trinidad Tobago,Electricity capacity (MW),0.1,0.4,0.6,1.0,1.4,1.5,1.7,1.9,2.0,2.3,2.6,2.6,2.6,2.6,2.9,3.3,3.3,3.3,3.3
+Solar photovoltaic,Trinidad Tobago,Electricity generation (GWh),0.1,0.6,1.0,1.5,2.2,2.3,2.7,2.9,3.1,3.5,4.0,4.0,4.0,4.0,4.5,5.2,5.2,5.2,
+Solar photovoltaic,Turks Caicos,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.4
+Solar photovoltaic,Turks Caicos,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,
+Solar photovoltaic,US Virgin Is,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.6,0.9,5.0,9.2,9.2,5.0,5.0
+Solar photovoltaic,US Virgin Is,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.7,0.7,3.9,14.9,29.5,29.5,14.4,
+Solar photovoltaic,Eurasia,Electricity capacity (MW),0.1,0.3,0.6,1.0,1.5,2.0,2.5,3.1,3.8,4.8,6.0,7.7,12.8,20.0,49.0,315.7,935.6,3725.5,5700.7
+Solar photovoltaic,Eurasia,Electricity generation (GWh),0.1,0.4,0.9,1.5,2.2,3.0,3.7,4.6,5.6,7.1,9.0,10.4,18.5,28.1,27.4,261.0,1158.8,3212.4,
+Solar photovoltaic,Armenia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.4,17.3
+Solar photovoltaic,Armenia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.2,2.7,
+Solar photovoltaic,Azerbaijan,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.3,1.0,1.0,1.0,2.4,5.0,24.9,28.4,36.4
+Solar photovoltaic,Azerbaijan,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.4,0.2,0.2,0.8,2.9,4.6,35.3,37.2,
+Solar photovoltaic,Georgia,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Georgia,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Russian Fed,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.3,6.6,61.7,76.7,274.0,584.0
+Solar photovoltaic,Russian Fed,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.9,1.0,7.1,62.4,79.3,283.2,
+Solar photovoltaic,Turkey,Electricity capacity (MW),0.1,0.3,0.6,1.0,1.5,2.0,2.5,3.0,3.7,4.7,5.7,6.7,11.7,17.7,40.0,249.0,833.0,3420.7,5062.9
+Solar photovoltaic,Turkey,Electricity generation (GWh),0.1,0.4,0.9,1.5,2.2,3.0,3.7,4.5,5.5,7.0,8.5,10.0,17.4,26.3,17.4,194.1,1043.1,2889.3,
+Solar photovoltaic,Europe,Electricity capacity (MW),199.1,299.4,385.0,623.8,1335.4,2315.3,3266.1,5039.4,10457.2,16835.3,30118.6,53616.2,71848.1,82017.7,88877.0,97366.9,103853.1,110298.9,118840.4
+Solar photovoltaic,Europe,Electricity generation (GWh),132.7,203.0,291.8,445.8,721.7,1497.7,2535.2,3820.9,7488.0,14089.6,22612.0,45787.9,68410.4,82447.5,94530.6,104907.9,108259.4,116603.8,
+Solar photovoltaic,Albania,Electricity capacity (MW),0.0,0.1,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.3,0.4,0.6,0.7,0.8,0.9,1.1,1.0,1.0,1.0
+Solar photovoltaic,Albania,Electricity generation (GWh),0.0,0.1,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.4,0.5,0.8,0.9,1.0,1.2,1.4,1.4,1.2,
+Solar photovoltaic,Andorra,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.2,0.5,0.7
+Solar photovoltaic,Andorra,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.3,0.7,
+Solar photovoltaic,Austria,Electricity capacity (MW),5.0,7.0,9.0,23.0,27.0,21.0,22.4,24.2,30.1,48.9,88.8,174.1,337.5,626.0,785.2,937.1,1096.0,1269.0,1431.0
+Solar photovoltaic,Austria,Electricity generation (GWh),3.2,5.3,9.0,14.7,18.4,21.0,22.4,24.2,30.1,48.9,88.8,174.1,337.5,626.0,785.2,937.1,1096.0,1269.0,
+Solar photovoltaic,Belarus,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,4.0,13.0,50.5,152.6,154.3
+Solar photovoltaic,Belarus,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,2.0,7.5,28.1,89.0,
+Solar photovoltaic,Belgium,Electricity capacity (MW),0.0,0.0,1.0,1.0,1.0,2.0,2.0,20.0,62.0,386.0,1007.0,1979.0,2647.0,2902.0,3014.0,3131.0,3325.0,3609.6,4025.6
+Solar photovoltaic,Belgium,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.7,1.3,1.6,6.1,41.4,166.0,560.0,1169.0,2148.0,2644.0,2883.0,3053.0,3092.0,3287.6,
+Solar photovoltaic,Bosnia Herzg,Electricity capacity (MW),0.0,0.0,0.0,0.1,0.2,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,1.3,7.2,8.2,14.1,16.0,19.0
+Solar photovoltaic,Bosnia Herzg,Electricity generation (GWh),0.0,0.0,0.0,0.1,0.2,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.4,1.6,8.3,9.5,23.6,27.0,
+Solar photovoltaic,Bulgaria,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,2.0,25.0,154.0,1013.0,1020.0,1026.0,1029.0,1028.0,1035.6,1035.6
+Solar photovoltaic,Bulgaria,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.2,3.3,14.9,100.9,813.9,1360.9,1252.5,1383.3,1386.3,1403.0,
+Solar photovoltaic,Croatia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,0.3,0.3,4.0,19.0,33.0,47.8,55.8,60.0,61.0
+Solar photovoltaic,Croatia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,2.4,11.3,35.2,57.3,65.5,78.7,
+Solar photovoltaic,Cyprus,Electricity capacity (MW),0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,2.0,4.0,7.0,10.0,17.0,35.0,64.0,76.0,84.0,110.0,113.0
+Solar photovoltaic,Cyprus,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.5,0.6,1.0,1.7,2.6,3.8,6.4,11.9,21.5,47.1,83.6,126.7,145.9,172.0,
+Solar photovoltaic,Czechia,Electricity capacity (MW),0.1,0.1,0.2,0.3,0.4,1.0,1.0,4.0,40.0,465.0,1727.0,1913.0,2022.0,2064.0,2068.0,2075.0,2068.0,2069.5,2077.5
+Solar photovoltaic,Czechia,Electricity generation (GWh),0.1,0.1,0.1,0.2,0.3,0.4,0.6,2.1,12.9,88.8,615.7,2182.0,2148.6,2032.7,2122.9,2263.8,2131.5,2193.4,
+Solar photovoltaic,Denmark,Electricity capacity (MW),1.0,1.0,2.0,2.0,2.0,3.0,3.0,3.0,3.0,5.0,7.0,17.0,402.0,571.0,607.0,782.1,851.0,906.4,998.0
+Solar photovoltaic,Denmark,Electricity generation (GWh),1.0,1.0,1.0,2.0,2.0,2.0,2.0,2.0,3.0,4.0,6.0,15.0,104.0,518.0,596.0,604.3,743.8,751.5,
+Solar photovoltaic,Estonia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.4,1.5,3.3,6.5,11.0,11.0,11.0
+Solar photovoltaic,Estonia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.3,1.4,3.1,5.9,10.1,10.1,
+Solar photovoltaic,Faroe Islands,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Faroe Islands,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Finland,Electricity capacity (MW),2.0,3.0,3.0,3.0,4.0,4.0,5.0,5.0,6.0,6.0,7.0,7.0,8.0,9.0,11.0,15.0,35.0,74.0,124.7
+Solar photovoltaic,Finland,Electricity generation (GWh),1.6,1.7,1.9,2.1,2.4,2.6,3.4,3.8,3.9,4.3,4.7,5.3,5.7,6.5,7.8,9.5,19.2,43.6,
+Solar photovoltaic,France,Electricity capacity (MW),7.0,7.0,8.0,9.0,11.0,13.0,15.0,26.0,80.0,277.0,1044.0,3003.6,4358.8,5277.3,6034.4,7137.5,7702.1,8610.4,9483.4
+Solar photovoltaic,France,Electricity generation (GWh),5.2,6.2,7.1,7.8,8.4,10.5,12.1,17.6,41.7,174.0,620.0,2333.4,4427.6,5192.4,6390.6,7750.4,8657.3,9572.8,
+Solar photovoltaic,Germany,Electricity capacity (MW),114.0,195.0,260.0,435.0,1105.0,2056.0,2899.0,4170.0,6120.0,10565.0,18005.0,25915.0,34075.0,36709.0,37898.0,39243.0,40714.0,42337.0,45277.0
+Solar photovoltaic,Germany,Electricity generation (GWh),60.0,116.0,188.0,313.3,556.6,1282.3,2220.1,3075.0,4419.8,6583.2,11728.7,19598.7,26379.9,31009.6,36056.5,38726.3,38098.0,39401.0,
+Solar photovoltaic,Gibraltar,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Gibraltar,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Greece,Electricity capacity (MW),0.0,1.0,1.0,1.0,1.0,1.0,5.0,9.0,12.0,46.0,202.0,612.0,1536.0,2579.0,2596.0,2604.0,2604.0,2605.5,2651.5
+Solar photovoltaic,Greece,Electricity generation (GWh),0.0,0.1,0.1,0.1,0.8,1.0,1.4,1.4,5.2,50.0,157.7,610.3,1694.0,3648.1,3791.9,3899.6,3929.7,3991.5,
+Solar photovoltaic,Holy See,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Holy See,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Hungary,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,1.0,1.0,2.0,4.0,12.0,35.0,89.0,172.0,235.0,344.0,665.0
+Solar photovoltaic,Hungary,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,0.6,0.7,0.9,1.4,7.9,24.6,67.0,141.0,244.0,349.0,
+Solar photovoltaic,Iceland,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Iceland,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Ireland,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.6,0.7,0.8,0.9,1.0,1.6,2.4,5.9,15.7,28.7
+Solar photovoltaic,Ireland,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.5,0.5,0.6,0.7,2.5,3.4,6.2,10.8,
+Solar photovoltaic,Italy,Electricity capacity (MW),19.0,20.0,22.0,26.0,31.0,34.0,45.0,110.0,483.0,1264.0,3592.0,13131.0,16785.0,18185.0,18594.0,18901.0,19283.0,19682.3,20120.0
+Solar photovoltaic,Italy,Electricity generation (GWh),18.0,19.0,21.0,24.0,29.0,31.0,35.0,39.0,193.0,676.5,1905.7,10795.7,18861.7,21588.6,22306.4,22942.2,22104.3,24377.7,
+Solar photovoltaic,Kosovo*,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,2.0,6.6,6.6
+Solar photovoltaic,Kosovo*,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.8,
+Solar photovoltaic,Latvia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.2,0.2,0.7,0.7,1.2
+Solar photovoltaic,Latvia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.4,0.4,
+Solar photovoltaic,Liechtenstein,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Liechtenstein,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Lithuania,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.3,7.0,68.0,69.0,69.0,70.0,73.8,83.8
+Solar photovoltaic,Lithuania,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.3,2.3,44.8,73.0,73.3,66.5,68.0,
+Solar photovoltaic,Luxembourg,Electricity capacity (MW),0.0,0.2,1.6,14.2,23.6,23.6,23.7,23.9,24.6,26.4,29.5,40.7,74.7,95.0,109.9,116.3,121.9,128.1,134.0
+Solar photovoltaic,Luxembourg,Electricity generation (GWh),0.0,0.0,0.1,1.4,9.2,17.7,21.1,20.9,20.0,20.3,21.1,25.7,38.3,73.7,94.7,103.7,100.3,108.5,
+Solar photovoltaic,Malta,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.2,0.9,0.8,5.3,15.7,28.5,54.6,74.8,93.6,112.3,127.3
+Solar photovoltaic,Malta,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.2,0.7,0.7,5.0,16.7,29.5,68.4,95.0,127.2,155.2,
+Solar photovoltaic,Moldova Rep,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.0,54.0,66.0,66.0,70.0,57.0,65.0,4.0
+Solar photovoltaic,Moldova Rep,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.5,1.9,2.0,
+Solar photovoltaic,Monaco,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Monaco,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Montenegro,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.4,0.4,0.6,0.8,0.9,1.1,2.1,2.7,3.1,3.4,3.4
+Solar photovoltaic,Montenegro,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.5,0.6,0.8,1.1,1.2,1.5,2.8,3.6,4.1,4.5,
+Solar photovoltaic,Netherlands,Electricity capacity (MW),13.0,21.0,26.0,46.0,50.0,51.0,53.0,54.0,59.0,69.0,90.0,149.0,369.0,746.0,1048.0,1515.0,2049.0,2903.0,4150.0
+Solar photovoltaic,Netherlands,Electricity generation (GWh),7.7,11.6,16.4,25.4,33.6,35.4,36.5,37.6,39.6,44.9,55.9,104.5,190.6,410.0,725.2,1108.5,1601.8,2204.3,
+Solar photovoltaic,North Macedonia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,4.0,7.0,15.0,17.0,16.7,16.7,20.6
+Solar photovoltaic,North Macedonia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.2,2.8,9.1,14.4,22.6,23.7,23.8,
+Solar photovoltaic,Norway,Electricity capacity (MW),6.0,6.0,6.0,7.0,7.0,7.0,8.0,8.0,8.3,8.7,9.1,9.5,10.0,11.0,13.0,15.0,26.7,44.9,68.4
+Solar photovoltaic,Norway,Electricity generation (GWh),7.5,7.5,7.5,8.7,8.7,8.7,10.0,10.0,10.3,10.8,11.3,11.8,12.5,13.7,16.2,18.7,33.2,55.9,
+Solar photovoltaic,Poland,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.1,1.3,2.4,27.2,107.8,187.2,287.1,486.5
+Solar photovoltaic,Poland,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,1.1,1.5,6.9,56.6,123.9,165.5,
+Solar photovoltaic,Portugal,Electricity capacity (MW),1.0,1.0,1.0,2.0,2.0,2.0,3.0,24.0,59.0,115.0,134.0,172.0,238.0,296.0,415.0,447.0,512.8,579.2,670.2
+Solar photovoltaic,Portugal,Electricity generation (GWh),1.0,1.0,2.0,3.0,3.0,3.0,4.8,24.0,40.5,160.0,211.3,279.9,392.6,479.1,627.3,796.2,870.6,991.5,
+Solar photovoltaic,Romania,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,1.0,41.0,761.0,1293.0,1326.0,1372.0,1374.1,1377.1
+Solar photovoltaic,Romania,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.4,8.0,420.2,1616.0,1982.0,1819.7,1855.7,
+Solar photovoltaic,San Marino,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,San Marino,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Serbia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.4,0.9,1.2,1.3,1.5,3.1,4.7,6.0,9.0,11.0,10.0,10.0
+Solar photovoltaic,Serbia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.5,1.0,1.4,1.5,1.7,3.6,5.4,6.0,11.0,12.0,13.1,
+Solar photovoltaic,Slovakia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,19.0,496.0,513.0,533.0,533.0,533.0,533.0,528.0,531.0
+Solar photovoltaic,Slovakia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16.9,397.0,424.0,588.0,597.0,506.0,533.0,506.0,
+Solar photovoltaic,Slovenia,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.6,1.0,4.0,12.0,57.0,142.0,187.0,223.0,238.0,233.0,246.8,255.8
+Solar photovoltaic,Slovenia,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.4,0.7,4.0,12.9,65.7,162.8,215.1,256.8,274.2,267.5,283.9,
+Solar photovoltaic,Spain,Electricity capacity (MW),10.0,13.0,17.0,22.0,33.0,52.0,130.0,494.0,3384.0,3423.0,3873.0,4283.0,4569.0,4690.0,4697.0,4704.0,4716.0,4725.0,4743.7
+Solar photovoltaic,Spain,Electricity generation (GWh),14.0,17.0,18.0,20.0,23.7,48.0,125.0,507.2,2562.0,5961.0,6425.0,7440.0,8192.6,8326.1,8217.6,8266.2,8063.5,8514.0,
+Solar photovoltaic,Sweden,Electricity capacity (MW),3.0,3.0,3.0,4.0,4.0,4.0,5.0,6.0,8.0,9.0,11.0,12.0,24.0,43.0,60.0,104.0,153.0,402.0,532.0
+Solar photovoltaic,Sweden,Electricity generation (GWh),1.4,1.5,1.7,1.8,2.0,2.1,2.4,3.1,4.0,7.0,8.6,11.0,19.0,35.0,47.0,97.0,143.0,230.0,
+Solar photovoltaic,Switzerland,Electricity capacity (MW),16.0,18.0,20.0,22.0,24.0,28.0,30.0,37.0,49.0,79.0,125.0,223.0,437.0,756.0,1061.0,1394.0,1664.0,1906.0,2246.0
+Solar photovoltaic,Switzerland,Electricity generation (GWh),11.0,13.0,15.0,18.0,18.0,21.0,24.0,29.0,37.0,54.0,94.0,168.0,300.0,500.0,842.0,1119.0,1333.0,1683.0,
+Solar photovoltaic,UK,Electricity capacity (MW),2.0,3.0,4.0,6.0,8.0,11.0,14.0,18.0,23.0,27.0,95.0,1000.0,1753.0,2937.0,5528.0,9601.0,11912.0,12776.0,13108.0
+Solar photovoltaic,UK,Electricity generation (GWh),1.0,1.8,2.7,2.9,4.0,8.2,10.7,14.0,17.0,20.0,40.3,243.6,1353.8,2010.2,4054.1,7532.9,10410.9,11524.9,
+Solar photovoltaic,Ukraine,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.5,188.2,371.6,748.4,819.1,841.2,954.7,1200.0,2002.7
+Solar photovoltaic,Ukraine,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,30.1,333.3,570.0,868.4,917.2,940.0,1183.2,
+Solar photovoltaic,European Union,Electricity capacity (MW),177.1,275.3,358.8,594.5,1304.2,2280.6,3234.1,5005.6,10419.7,16815.7,30147.5,53390.7,71286.5,80754.0,87231.4,95369.4,101432.9,107260.7,114692.5
+Solar photovoltaic,European Union,Electricity generation (GWh),114.2,182.4,269.0,418.7,694.5,1467.8,2505.7,3788.4,7451.8,14062.7,22624.6,45837.4,68184.0,81803.6,93260.0,103295.9,106364.8,114010.7,
+Solar photovoltaic,Middle East,Electricity capacity (MW),0.4,0.4,0.4,0.4,0.4,1.4,1.7,2.3,4.4,36.1,84.8,208.4,269.0,511.5,799.1,1047.0,1529.4,2076.5,3124.6
+Solar photovoltaic,Middle East,Electricity generation (GWh),0.6,0.6,0.6,0.6,0.6,2.3,2.9,3.8,7.7,50.9,144.5,353.2,457.8,847.5,1343.0,1770.5,2616.7,3710.5,
+Solar photovoltaic,Bahrain,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,5.0,5.0,5.0,5.0,5.0
+Solar photovoltaic,Bahrain,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,0.8,8.3,8.3,8.3,8.3,
+Solar photovoltaic,Iran IR,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.2,0.4,0.4,0.4,1.0,9.4,9.4,43.2,111.2,286.4
+Solar photovoltaic,Iran IR,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.3,0.7,0.7,0.7,0.7,0.7,1.5,5.0,11.5,
+Solar photovoltaic,Iraq,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29.5,36.5,36.5,36.5,36.5,36.5
+Solar photovoltaic,Iraq,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,46.3,57.3,57.3,57.3,57.3,
+Solar photovoltaic,Israel,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,1.0,1.3,1.8,3.0,24.5,69.9,189.7,236.7,420.0,670.0,765.8,866.0,969.0,1070.0
+Solar photovoltaic,Israel,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,1.7,2.2,3.1,5.1,41.7,118.8,322.5,402.4,714.0,1139.0,1301.8,1532.8,1715.1,
+Solar photovoltaic,Jordan,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,28.9,295.6,396.0,771.5
+Solar photovoltaic,Jordan,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.4,50.9,520.2,894.7,
+Solar photovoltaic,Kuwait,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,2.0,3.2,30.5,30.5,30.5
+Solar photovoltaic,Kuwait,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,3.3,5.1,48.8,48.8,
+Solar photovoltaic,Lebanon,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,0.5,0.8,1.9,4.7,11.2,24.2,36.0,41.7
+Solar photovoltaic,Lebanon,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.7,1.2,2.8,6.1,14.5,27.6,40.5,
+Solar photovoltaic,Oman,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.7,0.7,2.2,2.2,8.2,8.2
+Solar photovoltaic,Oman,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.2,1.2,3.7,3.7,3.7,
+Solar photovoltaic,Palestine,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.6,0.6,3.0,12.0,25.0,35.0,35.5
+Solar photovoltaic,Palestine,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,3.0,9.3,42.5,45.0,
+Solar photovoltaic,Qatar,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.7,0.7,2.3,4.0,4.0,5.1,5.1,5.1
+Solar photovoltaic,Qatar,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.1,1.1,3.8,6.5,6.5,8.4,8.4,
+Solar photovoltaic,Saudi Arabia,Electricity capacity (MW),0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,2.4,2.9,13.6,22.5,24.3,74.3,74.3,89.3,89.3
+Solar photovoltaic,Saudi Arabia,Electricity generation (GWh),0.6,0.6,0.6,0.6,0.6,0.6,0.6,0.6,0.6,0.6,4.1,5.0,23.6,39.1,42.2,129.2,129.2,155.3,
+Solar photovoltaic,Syrian AR,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,1.4
+Solar photovoltaic,Syrian AR,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,
+Solar photovoltaic,United Arab Em,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,10.8,12.6,14.4,30.0,34.3,34.5,41.8,254.6,493.5
+Solar photovoltaic,United Arab Em,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.4,18.4,20.7,24.2,31.9,65.4,66.2,78.0,528.0,
+Solar photovoltaic,Yemen,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9,1.0,1.0,1.3,1.4,2.4,5.0,60.0,80.0,100.0,250.0
+Solar photovoltaic,Yemen,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.8,1.9,2.0,2.5,2.6,4.6,9.7,116.2,155.0,193.7,
+Solar photovoltaic,N America,Electricity capacity (MW),197.0,237.0,281.0,321.0,393.0,526.0,735.0,1019.0,1205.0,1734.0,3159.0,5708.0,8963.0,13051.0,17943.0,24374.0,36007.6,44943.7,55386.0
+Solar photovoltaic,N America,Electricity generation (GWh),206.0,247.0,291.0,331.0,400.0,550.0,768.0,1036.0,1268.0,1835.0,3349.0,5935.0,10136.0,16463.0,25417.0,35232.0,50150.0,72051.0,
+Solar photovoltaic,Bermuda,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Bermuda,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Canada,Electricity capacity (MW),7.0,9.0,10.0,12.0,14.0,17.0,21.0,26.0,33.0,95.0,221.0,497.0,766.0,1210.0,1843.0,2517.0,2661.0,2913.0,3153.0
+Solar photovoltaic,Canada,Electricity generation (GWh),16.0,19.0,22.0,23.0,13.0,17.0,21.0,26.0,35.0,109.0,255.0,572.0,881.0,1499.0,2120.0,2895.0,3265.0,3573.0,
+Solar photovoltaic,Greenland,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Greenland,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Mexico,Electricity capacity (MW),14.0,15.0,16.0,16.0,16.0,16.0,16.0,19.0,19.0,25.0,29.0,39.0,60.0,82.0,116.0,173.0,388.6,673.7,2541.0
+Solar photovoltaic,Mexico,Electricity generation (GWh),7.0,8.0,8.0,8.0,9.0,9.0,10.0,9.0,19.0,27.0,31.0,41.0,69.0,106.0,221.0,246.0,252.0,1085.0,
+Solar photovoltaic,St Pierre Mq,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,St Pierre Mq,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,USA,Electricity capacity (MW),176.0,213.0,255.0,293.0,363.0,493.0,698.0,974.0,1153.0,1614.0,2909.0,5172.0,8137.0,11759.0,15984.0,21684.0,32958.0,41357.0,49692.0
+Solar photovoltaic,USA,Electricity generation (GWh),183.0,220.0,261.0,300.0,378.0,524.0,737.0,1001.0,1214.0,1699.0,3063.0,5322.0,9186.0,14858.0,23076.0,32091.0,46633.0,67393.0,
+Solar photovoltaic,Oceania,Electricity capacity (MW),26.1,30.6,35.8,41.1,48.4,54.9,64.6,77.2,90.0,338.1,1099.7,2491.6,3826.2,4605.5,5352.1,6072.9,6853.6,7571.4,10601.5
+Solar photovoltaic,Oceania,Electricity generation (GWh),39.5,46.2,52.4,60.7,71.3,81.8,94.9,113.9,132.7,167.9,400.7,1411.4,2359.2,3519.4,4082.5,5162.5,6424.0,8341.2,
+Solar photovoltaic,Amer Samoa,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.4,2.4,2.4,2.4,3.8,4.2,4.2
+Solar photovoltaic,Amer Samoa,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,1.4,2.4,2.4,2.5,3.1,4.8,
+Solar photovoltaic,Australia,Electricity capacity (MW),25.0,29.0,34.0,39.0,46.0,52.0,61.0,70.0,82.0,329.0,1088.0,2470.0,3796.0,4565.0,5284.0,5943.0,6686.0,7352.0,10352.0
+Solar photovoltaic,Australia,Electricity generation (GWh),38.0,44.0,50.0,58.0,68.0,78.0,90.0,105.0,123.0,156.0,386.0,1388.0,2322.0,3472.0,4007.0,5019.0,6205.0,8071.0,
+Solar photovoltaic,Christmas Is,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Christmas Is,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Cocos Is,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Cocos Is,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Cook Is,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.7,1.7,3.2,4.1,4.1,6.0
+Solar photovoltaic,Cook Is,Electricity generation (GWh),0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.9,2.3,4.2,5.5,5.5,
+Solar photovoltaic,Fiji,Electricity capacity (MW),0.1,0.1,0.1,0.1,0.0,0.1,0.1,0.1,0.2,0.2,0.3,0.3,0.9,1.4,1.9,3.3,5.3,7.1,9.5
+Solar photovoltaic,Fiji,Electricity generation (GWh),0.1,0.1,0.1,0.2,0.1,0.1,0.2,0.2,0.2,0.3,0.4,0.4,1.2,1.8,2.5,4.4,7.0,9.4,
+Solar photovoltaic,Fr Polynesia,Electricity capacity (MW),0.5,0.7,0.8,1.0,1.2,1.5,1.8,2.1,2.5,2.8,2.9,11.0,13.5,16.9,24.6,27.9,31.6,35.2,35.2
+Solar photovoltaic,Fr Polynesia,Electricity generation (GWh),0.7,0.9,1.1,1.3,1.6,2.0,2.3,2.7,3.1,3.4,3.0,9.0,17.0,19.0,28.0,33.0,33.0,36.0,
+Solar photovoltaic,Guam,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.3,0.8,1.4,32.0,34.7,34.7,34.8
+Solar photovoltaic,Guam,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.2,0.6,1.5,2.6,30.9,66.3,59.6,
+Solar photovoltaic,Kiribati,Electricity capacity (MW),0.1,0.1,0.1,0.1,0.2,0.2,0.2,0.3,0.3,0.3,0.4,0.4,0.5,0.5,0.8,2.3,2.9,2.9,2.9
+Solar photovoltaic,Kiribati,Electricity generation (GWh),0.1,0.1,0.1,0.1,0.3,0.4,0.4,0.4,0.5,0.5,0.7,0.7,0.8,0.8,1.3,3.9,4.8,4.8,
+Solar photovoltaic,Marshall Is,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.2,0.3,0.3,0.3,0.5,0.7,1.0,1.0,1.6,1.6,1.6
+Solar photovoltaic,Marshall Is,Electricity generation (GWh),0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.4,0.4,0.4,0.6,0.9,1.4,1.4,2.2,2.2,
+Solar photovoltaic,Micronesia,Electricity capacity (MW),0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.2,0.5,0.5,0.5,0.5,0.7,0.7,0.7,1.3,1.3,1.9
+Solar photovoltaic,Micronesia,Electricity generation (GWh),0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.3,0.3,0.8,0.8,0.8,0.8,1.0,1.0,1.0,1.8,1.8,
+Solar photovoltaic,Nauru,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.2,0.2,0.7,0.7,0.7
+Solar photovoltaic,Nauru,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.0,0.1,0.1,0.3,0.3,0.2,0.3,1.3,
+Solar photovoltaic,New Caledon,Electricity capacity (MW),0.2,0.2,0.2,0.3,0.3,0.3,0.3,0.5,0.5,0.5,2.7,3.2,3.2,3.2,3.4,6.8,9.2,27.8,32.8
+Solar photovoltaic,New Caledon,Electricity generation (GWh),0.2,0.3,0.3,0.3,0.3,0.3,0.3,0.9,0.6,0.6,3.4,4.2,4.6,4.7,4.5,6.6,11.4,27.7,
+Solar photovoltaic,New Zealand,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,3.0,3.0,3.0,4.0,8.0,21.0,36.0,52.0,69.0,89.1
+Solar photovoltaic,New Zealand,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,3.0,4.0,4.0,4.0,5.0,7.0,18.0,36.0,55.0,75.0,
+Solar photovoltaic,Niue,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.1,0.3,0.3,0.3,0.3,0.3
+Solar photovoltaic,Niue,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.1,0.5,0.5,0.5,0.5,
+Solar photovoltaic,Norfolk Is,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Norfolk Is,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Nth Mariana Is,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Nth Mariana Is,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Palau,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,0.3,0.3,0.6,0.7,0.7,0.9,0.9,1.3,1.3,1.3
+Solar photovoltaic,Palau,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.4,0.4,0.8,0.9,1.0,1.2,1.2,1.7,1.7,
+Solar photovoltaic,Papua N Guin,Electricity capacity (MW),0.0,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.9,1.2,1.2,1.1
+Solar photovoltaic,Papua N Guin,Electricity generation (GWh),0.0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.3,1.8,1.7,
+Solar photovoltaic,Pitcairn,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Pitcairn,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Samoa,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,3.1,4.8,7.2,13.5,13.5
+Solar photovoltaic,Samoa,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,2.3,7.8,11.4,21.3,
+Solar photovoltaic,Solomon Is,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.8,0.8,0.8,1.1,1.1,2.2,2.5,2.5
+Solar photovoltaic,Solomon Is,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.1,1.1,1.1,1.5,1.5,2.1,3.2,
+Solar photovoltaic,Tokelau,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.4,0.4,0.4,0.4,0.4,0.4,0.9,0.9,0.9,0.9,0.9,0.9,0.9
+Solar photovoltaic,Tokelau,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.5,0.5,0.5,0.5,0.5,1.0,1.0,1.0,1.0,1.0,1.0,
+Solar photovoltaic,Tonga,Electricity capacity (MW),0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,1.1,1.7,1.7,2.7,3.2,6.2,6.2
+Solar photovoltaic,Tonga,Electricity generation (GWh),0.1,0.1,0.1,0.1,0.1,0.1,0.2,0.2,0.2,0.2,0.2,0.2,1.2,2.9,3.7,4.6,5.3,6.1,
+Solar photovoltaic,Tuvalu,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.2,0.2,0.2,0.3,2.1,2.2,2.2,2.2
+Solar photovoltaic,Tuvalu,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.1,0.2,0.2,0.8,2.0,2.0,
+Solar photovoltaic,Vanuatu,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.2,0.2,0.3,0.4,1.8,2.7,2.7
+Solar photovoltaic,Vanuatu,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.2,0.3,0.4,0.8,2.8,4.5,
+Solar photovoltaic,Wallis Fut Is,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Wallis Fut Is,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,S America,Electricity capacity (MW),1.8,3.3,4.6,5.4,6.4,7.1,8.3,9.8,12.2,15.3,42.1,60.5,157.1,188.0,470.0,900.4,1545.1,3422.4,5470.9
+Solar photovoltaic,S America,Electricity generation (GWh),7.1,8.7,10.5,11.4,12.8,13.9,15.3,17.2,19.4,24.2,32.3,77.1,173.3,341.5,909.3,1813.6,3377.9,5693.2,
+Solar photovoltaic,Argentina,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.2,6.2,8.3,8.3,8.8,8.8,8.8,191.3
+Solar photovoltaic,Argentina,Electricity generation (GWh),0.0,0.0,0.0,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,1.6,8.2,15.1,15.9,14.8,14.5,14.5,
+Solar photovoltaic,Bolivia,Electricity capacity (MW),0.3,0.4,0.5,0.7,0.8,0.8,1.1,1.4,2.4,2.8,3.0,3.4,4.1,5.5,5.5,5.5,5.5,7.5,71.0
+Solar photovoltaic,Bolivia,Electricity generation (GWh),0.1,0.2,0.2,0.3,0.3,0.3,0.4,0.5,0.9,1.1,1.1,1.3,1.6,2.1,4.1,4.8,5.7,6.9,
+Solar photovoltaic,Brazil,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,2.0,5.0,15.0,22.9,80.0,1097.0,2296.0
+Solar photovoltaic,Brazil,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.5,6.9,18.5,61.3,78.9,138.8,997.7,
+Solar photovoltaic,Chile,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,15.0,221.0,576.0,1125.0,1809.0,2137.0
+Solar photovoltaic,Chile,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.4,8.0,480.0,1261.0,2639.0,3914.0,
+Solar photovoltaic,Colombia,Electricity capacity (MW),0.6,1.0,1.0,1.1,1.1,1.1,1.2,1.2,1.2,1.3,1.3,1.3,1.3,1.4,1.4,1.5,1.5,11.3,86.4
+Solar photovoltaic,Colombia,Electricity generation (GWh),5.8,6.0,6.2,6.4,6.5,6.8,6.9,7.2,7.3,7.4,7.6,7.7,8.1,8.3,8.5,8.9,8.9,14.3,
+Solar photovoltaic,Ecuador,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,4.2,26.4,25.5,25.6,25.6,25.6
+Solar photovoltaic,Ecuador,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.3,3.7,16.5,36.1,38.2,40.7,
+Solar photovoltaic,Falklands Malv,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1
+Solar photovoltaic,Falklands Malv,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.1,0.1,
+Solar photovoltaic,Fr Guiana,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.9,21.7,32.3,34.0,34.0,38.0,39.1,45.0,45.0,47.0
+Solar photovoltaic,Fr Guiana,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.3,3.1,37.1,52.0,44.0,52.0,54.0,54.0,51.8,
+Solar photovoltaic,Guyana,Electricity capacity (MW),0.0,0.1,0.1,0.1,0.1,0.2,0.2,0.3,0.3,0.3,0.4,0.6,0.7,0.8,6.1,6.3,6.6,9.5,10.2
+Solar photovoltaic,Guyana,Electricity generation (GWh),0.1,0.1,0.1,0.1,0.2,0.2,0.3,0.4,0.4,0.5,0.6,0.8,1.0,1.2,9.2,9.5,10.0,12.2,
+Solar photovoltaic,Paraguay,Electricity capacity (MW),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Paraguay,Electricity generation (GWh),,,,,,,,,,,,,,,,,,,
+Solar photovoltaic,Peru,Electricity capacity (MW),0.9,1.9,3.0,3.5,4.3,5.0,5.8,6.8,8.0,9.8,12.5,17.5,102.6,108.5,134.5,138.9,146.1,153.4,345.1
+Solar photovoltaic,Peru,Electricity generation (GWh),1.1,2.4,3.9,4.6,5.7,6.5,7.6,8.9,10.4,12.7,16.3,22.8,89.1,234.0,244.2,281.1,301.1,356.7,
+Solar photovoltaic,Suriname,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.3,0.7,0.9,6.2,6.2,6.2,6.2,6.9
+Solar photovoltaic,Suriname,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.4,0.9,1.3,8.7,8.8,8.8,8.8,
+Solar photovoltaic,Uruguay,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.2,0.2,0.2,0.8,1.1,2.1,4.2,65.0,90.0,244.5,250.3
+Solar photovoltaic,Uruguay,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1,0.1,0.2,0.3,0.8,1.1,3.5,48.8,151.9,268.6,
+Solar photovoltaic,Venezuela,Electricity capacity (MW),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.8,2.0,2.3,2.3,3.4,4.5,4.5,4.5,4.0
+Solar photovoltaic,Venezuela,Electricity generation (GWh),0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2.4,4.1,4.2,5.3,6.9,6.9,6.9,

@@ -1,0 +1,1436 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20183.18.1018.1932                               -->
+<workbook source-build='2018.3.0 (20183.18.1018.1932)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='global_power_plant_database' inline='true' name='federated.0fbhq2i1s9evi813b7y321qtkeqd' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='global_power_plant_database' name='textscan.1uorula18i84nd1en0q9f0q7lalz'>
+            <connection class='textscan' directory='C:/wri_work/ai4earth_modules/models' filename='global_power_plant_database.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1uorula18i84nd1en0q9f0q7lalz' name='global_power_plant_database.csv' table='[global_power_plant_database#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='string' name='country_long' ordinal='1' />
+            <column datatype='string' name='name' ordinal='2' />
+            <column datatype='string' name='gppd_idnr' ordinal='3' />
+            <column datatype='real' name='capacity_mw' ordinal='4' />
+            <column datatype='real' name='latitude' ordinal='5' />
+            <column datatype='real' name='longitude' ordinal='6' />
+            <column datatype='string' name='primary_fuel' ordinal='7' />
+            <column datatype='string' name='other_fuel1' ordinal='8' />
+            <column datatype='string' name='other_fuel2' ordinal='9' />
+            <column datatype='string' name='other_fuel3' ordinal='10' />
+            <column datatype='real' name='commissioning_year' ordinal='11' />
+            <column datatype='string' name='owner' ordinal='12' />
+            <column datatype='string' name='source' ordinal='13' />
+            <column datatype='string' name='url' ordinal='14' />
+            <column datatype='string' name='geolocation_source' ordinal='15' />
+            <column datatype='integer' name='wepp_id' ordinal='16' />
+            <column datatype='integer' name='year_of_capacity_data' ordinal='17' />
+            <column datatype='real' name='generation_gwh_2013' ordinal='18' />
+            <column datatype='real' name='generation_gwh_2014' ordinal='19' />
+            <column datatype='real' name='generation_gwh_2015' ordinal='20' />
+            <column datatype='real' name='generation_gwh_2016' ordinal='21' />
+            <column datatype='real' name='generation_gwh_2017' ordinal='22' />
+            <column datatype='real' name='estimated_generation_gwh' ordinal='23' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_long</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country_long]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>country_long</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gppd_idnr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gppd_idnr]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>gppd_idnr</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capacity_mw</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[capacity_mw]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>capacity_mw</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primary_fuel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[primary_fuel]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>primary_fuel</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_fuel1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[other_fuel1]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>other_fuel1</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_fuel2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[other_fuel2]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>other_fuel2</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_fuel3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[other_fuel3]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>other_fuel3</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>commissioning_year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[commissioning_year]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>commissioning_year</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>owner</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[owner]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>owner</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geolocation_source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geolocation_source]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>geolocation_source</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wepp_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wepp_id]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>wepp_id</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year_of_capacity_data</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year_of_capacity_data]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>year_of_capacity_data</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2013]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2013</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2014]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2014</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2015</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2015]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2015</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2016]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2016</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2017]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>generation_gwh_2017</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_gwh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[estimated_generation_gwh]</local-name>
+            <parent-name>[global_power_plant_database.csv]</parent-name>
+            <remote-alias>estimated_generation_gwh</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='percentage_by_number_2016' datatype='real' name='[Calculation_2097551574095630336]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([generation_gwh_2016])/COUNT([gppd_idnr])' />
+      </column>
+      <column caption='percentage_by_capacity_2016' datatype='real' name='[Calculation_2097551574096338945]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF NOT ISNULL([generation_gwh_2016]) THEN [capacity_mw] END)/SUM([capacity_mw]&#13;&#10;)' />
+      </column>
+      <column caption='world' datatype='string' name='[Calculation_2097551574112239619]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&apos;world&apos;' />
+      </column>
+      <column caption='1' datatype='integer' name='[Calculation_2097551574113312772]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Generation 2016' datatype='string' name='[Calculation_2097551574113849349]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF NOT ISNULL([generation_gwh_2016]) THEN &apos;Generation Reported&apos; ELSE &apos;Not Reported&apos; END' />
+      </column>
+      <column datatype='integer' name='[Generation Gwh 2016 (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='2' formula='[generation_gwh_2016]' peg='0' size='628' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Capacity Mw' datatype='real' default-format='n#,##0&quot;MW&quot;;-#,##0&quot;MW&quot;' name='[capacity_mw]' role='measure' type='quantitative' />
+      <column caption='Commissioning Year' datatype='real' name='[commissioning_year]' role='dimension' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country Long' datatype='string' name='[country_long]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Estimated Generation Gwh' datatype='real' name='[estimated_generation_gwh]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2013' datatype='real' name='[generation_gwh_2013]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2014' datatype='real' name='[generation_gwh_2014]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2015' datatype='real' name='[generation_gwh_2015]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2016' datatype='real' name='[generation_gwh_2016]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2017' datatype='real' name='[generation_gwh_2017]' role='measure' type='quantitative' />
+      <column caption='Geolocation Source' datatype='string' name='[geolocation_source]' role='dimension' type='nominal' />
+      <column aggregation='CountD' caption='Gppd Idnr' datatype='string' default-role='measure' default-type='quantitative' name='[gppd_idnr]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Other Fuel1' datatype='string' name='[other_fuel1]' role='dimension' type='nominal' />
+      <column caption='Other Fuel2' datatype='string' name='[other_fuel2]' role='dimension' type='nominal' />
+      <column caption='Other Fuel3' datatype='string' name='[other_fuel3]' role='dimension' type='nominal' />
+      <column caption='Owner' datatype='string' name='[owner]' role='dimension' type='nominal' />
+      <column caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column caption='Wepp Id' datatype='integer' name='[wepp_id]' role='dimension' type='ordinal' />
+      <column caption='Year Of Capacity Data' datatype='integer' name='[year_of_capacity_data]' role='dimension' type='quantitative' />
+      <column-instance column='[Calculation_2097551574113849349]' derivation='None' name='[none:Calculation_2097551574113849349:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.41655' measure-ordering='alphabetic' measure-percentage='0.58345' show-structure='true' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_2097551574113849349:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Generation Reported&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;has generation&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Not Reported&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;no gneration&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='global_power_plant_database(jrc morocco chile AUS_year updated)' inline='true' name='federated.1pkmssy0l8awxt17i4krf1o0xwuw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='global_power_plant_database(jrc morocco chile AUS_year updated)' name='textscan.1jnzmpr18fj7vr18hsusx0ol5ssp'>
+            <connection class='textscan' directory='C:/wri_work/ai4earth checkin' filename='global_power_plant_database(jrc morocco chile AUS_year updated).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1jnzmpr18fj7vr18hsusx0ol5ssp' name='global_power_plant_database(jrc morocco chile AUS_year updated).csv' table='[global_power_plant_database(jrc morocco chile AUS_year updated)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='real' name='capacity_mw' ordinal='0' />
+            <column datatype='real' name='commissioning_year' ordinal='1' />
+            <column datatype='string' name='country' ordinal='2' />
+            <column datatype='string' name='country_long' ordinal='3' />
+            <column datatype='real' name='estimated_generation_gwh' ordinal='4' />
+            <column datatype='real' name='generation_gwh_2013' ordinal='5' />
+            <column datatype='real' name='generation_gwh_2014' ordinal='6' />
+            <column datatype='real' name='generation_gwh_2015' ordinal='7' />
+            <column datatype='real' name='generation_gwh_2016' ordinal='8' />
+            <column datatype='real' name='generation_gwh_2017' ordinal='9' />
+            <column datatype='string' name='geolocation_source' ordinal='10' />
+            <column datatype='string' name='gppd_idnr' ordinal='11' />
+            <column datatype='real' name='latitude' ordinal='12' />
+            <column datatype='real' name='longitude' ordinal='13' />
+            <column datatype='string' name='name' ordinal='14' />
+            <column datatype='string' name='other_fuel1' ordinal='15' />
+            <column datatype='string' name='other_fuel2' ordinal='16' />
+            <column datatype='string' name='other_fuel3' ordinal='17' />
+            <column datatype='string' name='owner' ordinal='18' />
+            <column datatype='string' name='primary_fuel' ordinal='19' />
+            <column datatype='string' name='source' ordinal='20' />
+            <column datatype='string' name='url' ordinal='21' />
+            <column datatype='integer' name='wepp_id' ordinal='22' />
+            <column datatype='real' name='year_of_capacity_data' ordinal='23' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>capacity_mw</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[capacity_mw]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>capacity_mw</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>commissioning_year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[commissioning_year]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>commissioning_year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_long</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country_long]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>country_long</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>estimated_generation_gwh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[estimated_generation_gwh]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>estimated_generation_gwh</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2013</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2013]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>generation_gwh_2013</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2014</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2014]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>generation_gwh_2014</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2015</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2015]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>generation_gwh_2015</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2016</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2016]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>generation_gwh_2016</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>generation_gwh_2017</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[generation_gwh_2017]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>generation_gwh_2017</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geolocation_source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geolocation_source]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>geolocation_source</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gppd_idnr</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gppd_idnr]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>gppd_idnr</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_fuel1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[other_fuel1]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>other_fuel1</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_fuel2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[other_fuel2]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>other_fuel2</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>other_fuel3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[other_fuel3]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>other_fuel3</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>owner</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[owner]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>owner</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>primary_fuel</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[primary_fuel]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>primary_fuel</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wepp_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[wepp_id]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>wepp_id</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year_of_capacity_data</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[year_of_capacity_data]</local-name>
+            <parent-name>[global_power_plant_database(jrc morocco chile AUS_year updated).csv]</parent-name>
+            <remote-alias>year_of_capacity_data</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='percentage_by_capacity_2016' datatype='real' default-format='p0%' name='[Calculation_2097551574096338945]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF NOT ISNULL([generation_gwh_2016]) THEN [capacity_mw] END)/SUM([capacity_mw]&#13;&#10;)' />
+      </column>
+      <column caption='1' datatype='integer' name='[Calculation_2097551574113312772]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Generation 2016' datatype='string' name='[Calculation_2097551574113849349]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF NOT ISNULL([generation_gwh_2016]) THEN &apos;Generation Reported&apos; ELSE &apos;Not Reported&apos; END' />
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Capacity Mw' datatype='real' default-format='n#,##0&quot;MW&quot;;-#,##0&quot;MW&quot;' name='[capacity_mw]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Commissioning Year' datatype='real' name='[commissioning_year]' role='dimension' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Country Long' datatype='string' name='[country_long]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Estimated Generation Gwh' datatype='real' name='[estimated_generation_gwh]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2013' datatype='real' name='[generation_gwh_2013]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2014' datatype='real' name='[generation_gwh_2014]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2015' datatype='real' name='[generation_gwh_2015]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2016' datatype='real' name='[generation_gwh_2016]' role='measure' type='quantitative' />
+      <column caption='Generation Gwh 2017' datatype='real' name='[generation_gwh_2017]' role='measure' type='quantitative' />
+      <column caption='Geolocation Source' datatype='string' name='[geolocation_source]' role='dimension' type='nominal' />
+      <column caption='Gppd Idnr' datatype='string' name='[gppd_idnr]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Other Fuel1' datatype='string' name='[other_fuel1]' role='dimension' type='nominal' />
+      <column caption='Other Fuel2' datatype='string' name='[other_fuel2]' role='dimension' type='nominal' />
+      <column caption='Other Fuel3' datatype='string' name='[other_fuel3]' role='dimension' type='nominal' />
+      <column caption='Owner' datatype='string' name='[owner]' role='dimension' type='nominal' />
+      <column caption='Primary Fuel' datatype='string' name='[primary_fuel]' role='dimension' type='nominal' />
+      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      <column caption='Url' datatype='string' name='[url]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Wepp Id' datatype='integer' name='[wepp_id]' role='dimension' type='ordinal' />
+      <column aggregation='Sum' caption='Year Of Capacity Data' datatype='real' name='[year_of_capacity_data]' role='dimension' type='quantitative' />
+      <column-instance column='[Calculation_2097551574113849349]' derivation='None' name='[none:Calculation_2097551574113849349:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.556485' measure-ordering='alphabetic' measure-percentage='0.443515' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Calculation_2097551574113849349:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Generation Reported&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Not Reported&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>By Number</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='global_power_plant_database(jrc morocco chile AUS_year updated)' name='federated.1pkmssy0l8awxt17i4krf1o0xwuw' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1pkmssy0l8awxt17i4krf1o0xwuw'>
+            <column caption='1' datatype='integer' name='[Calculation_2097551574113312772]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='Generation 2016' datatype='string' name='[Calculation_2097551574113849349]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF NOT ISNULL([generation_gwh_2016]) THEN &apos;Generation Reported&apos; ELSE &apos;Not Reported&apos; END' />
+            </column>
+            <column-instance column='[gppd_idnr]' derivation='CountD' name='[ctd:gppd_idnr:qk]' pivot='key' type='quantitative' />
+            <column caption='Generation Gwh 2016' datatype='real' name='[generation_gwh_2016]' role='measure' type='quantitative' />
+            <column caption='Gppd Idnr' datatype='string' name='[gppd_idnr]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_2097551574113312772]' derivation='Min' name='[min:Calculation_2097551574113312772:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2097551574113849349]' derivation='None' name='[none:Calculation_2097551574113849349:nk]' pivot='key' type='nominal' />
+            <column-instance column='[gppd_idnr]' derivation='CountD' name='[pcto:ctd:gppd_idnr:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='549' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='659' />
+                <format attr='maxheight' value='659' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[none:Calculation_2097551574113849349:nk]' />
+              <wedge-size column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[ctd:gppd_idnr:qk]' />
+              <text column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[pcto:ctd:gppd_idnr:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='10' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5272375345230103' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[ctd:gppd_idnr:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[ctd:gppd_idnr:qk]</run>
+                <run>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='12' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='0.97751379013061523' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk] + [federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk])</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 1 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>By Capacity</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='global_power_plant_database(jrc morocco chile AUS_year updated)' name='federated.1pkmssy0l8awxt17i4krf1o0xwuw' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1pkmssy0l8awxt17i4krf1o0xwuw'>
+            <column caption='1' datatype='integer' name='[Calculation_2097551574113312772]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column caption='Generation 2016' datatype='string' name='[Calculation_2097551574113849349]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF NOT ISNULL([generation_gwh_2016]) THEN &apos;Generation Reported&apos; ELSE &apos;Not Reported&apos; END' />
+            </column>
+            <column caption='Capacity Mw' datatype='real' default-format='n#,##0&quot;MW&quot;;-#,##0&quot;MW&quot;' name='[capacity_mw]' role='measure' type='quantitative' />
+            <column caption='Generation Gwh 2016' datatype='real' name='[generation_gwh_2016]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2097551574113312772]' derivation='Min' name='[min:Calculation_2097551574113312772:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2097551574113849349]' derivation='None' name='[none:Calculation_2097551574113849349:nk]' pivot='key' type='nominal' />
+            <column-instance column='[capacity_mw]' derivation='Sum' name='[pcto:sum:capacity_mw:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[capacity_mw]' derivation='Sum' name='[sum:capacity_mw:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' value='549' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='659' />
+                <format attr='maxheight' value='659' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='9' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[none:Calculation_2097551574113849349:nk]' />
+              <wedge-size column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[sum:capacity_mw:qk]' />
+              <text column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[pcto:sum:capacity_mw:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='10' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.5492265224456787' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='10' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[sum:capacity_mw:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-size' value='12' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk] + [federated.1pkmssy0l8awxt17i4krf1o0xwuw].[min:Calculation_2097551574113312772:qk])</rows>
+        <cols />
+      </table>
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='global_power_plant_database(jrc morocco chile AUS_year updated)' name='federated.1pkmssy0l8awxt17i4krf1o0xwuw' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1pkmssy0l8awxt17i4krf1o0xwuw'>
+            <column caption='percentage_by_capacity_2016' datatype='real' default-format='p0%' name='[Calculation_2097551574096338945]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM(IF NOT ISNULL([generation_gwh_2016]) THEN [capacity_mw] END)/SUM([capacity_mw]&#13;&#10;)' />
+            </column>
+            <column caption='Capacity Mw' datatype='real' default-format='n#,##0&quot;MW&quot;;-#,##0&quot;MW&quot;' name='[capacity_mw]' role='measure' type='quantitative' />
+            <column caption='Country Long' datatype='string' name='[country_long]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Generation Gwh 2016' datatype='real' name='[generation_gwh_2016]' role='measure' type='quantitative' />
+            <column-instance column='[country_long]' derivation='None' name='[none:country_long:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_2097551574096338945]' derivation='User' name='[usr:Calculation_2097551574096338945:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[Longitude (generated)]' field-type='quantitative' max='28546713.867162019' min='-25305252.461104378' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[Latitude (generated)]' field-type='quantitative' max='23360275.373451382' min='-16544419.1000122' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[usr:Calculation_2097551574096338945:qk]' />
+              <lod column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[none:country_long:nk]' />
+              <color column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[usr:Calculation_2097551574096338945:qk]' />
+              <geometry column='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-weight' value='bold' />
+                <format attr='color' value='#000000' />
+                <format attr='font-size' value='9' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[Latitude (generated)]</rows>
+        <cols>[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[Longitude (generated)]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style>
+        <style-rule element='dash-text'>
+          <format attr='text-align' id='dash-text_13' value='center' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='84250' id='9' param='horz' type='layout-flow' w='98400' x='800' y='14750'>
+            <zone h='84250' id='7' type='layout-basic' w='74200' x='800' y='14750'>
+              <zone h='50830' id='1' param='horz' type='layout-flow' w='37100' x='800' y='14750'>
+                <zone h='50830' id='6' name='Sheet 1' w='37100' x='800' y='14750'>
+                  <layout-cache cell-count-w='1' has-max-size-h='true' maxheight='716' minheight='716' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='50830' id='3' param='horz' type='layout-flow' w='37100' x='37900' y='14750'>
+                <zone h='50830' id='11' name='Sheet 1 (2)' w='37100' x='37900' y='14750'>
+                  <layout-cache cell-count-w='1' has-max-size-h='true' maxheight='716' minheight='716' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone h='33420' id='4' param='vert' type='layout-flow' w='37100' x='800' y='65580' />
+              <zone h='33420' id='5' param='vert' type='layout-flow' w='37100' x='37900' y='65580' />
+            </zone>
+            <zone fixed-size='242' h='84250' id='8' is-fixed='true' param='vert' type='layout-flow' w='24200' x='75000' y='14750'>
+              <zone h='10500' id='10' name='Sheet 1' pane-specification-id='9' param='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[none:Calculation_2097551574113849349:nk]' type='color' w='24200' x='75000' y='14750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone forceUpdate='true' h='13750' id='13' type='text' w='98400' x='800' y='1000'>
+            <formatted-text>
+              <run bold='true' fontsize='18'>Only a Third of Power Plants Have Reported Generation</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='57'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='32'>
+            <card type='columns' />
+          </strip>
+          <strip size='32'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='9' param='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[none:Calculation_2097551574113849349:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0E40ED8D-AFCF-401A-BD8E-FFF4ADBCCEDD}' />
+    </window>
+    <window class='worksheet' name='Sheet 1 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='9' param='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[none:Calculation_2097551574113849349:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FDEE77FC-1D8F-47C5-A5AC-14164F0A4E8C}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='32'>
+            <card type='columns' />
+          </strip>
+          <strip size='32'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1pkmssy0l8awxt17i4krf1o0xwuw].[usr:Calculation_2097551574096338945:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{851B0762-9850-43DC-B1D7-0C752C1641F5}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 1 (2)'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='13' />
+      <simple-id uuid='{7093D80D-9FDD-4BBB-BE13-0F04C32F0260}' />
+    </window>
+  </windows>
+</workbook>

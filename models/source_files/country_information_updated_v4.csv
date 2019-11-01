@@ -1,0 +1,220 @@
+Unnamed: 0,primary_country_name,iso_country_code,iso_country_code_2,automated,use_geo,ft_built_in,geo_country_name,carma_country_name,iea_country,fusion_table_id,platts_country_name,oecd_library_country_name,irena_country_name,Two_Letter_Country_Code,Three_Letter_Country_Code,Continent_Code
+0,Aruba,ABW,AW,0,1,,Aruba,Aruba,,,ARUBA,,Aruba,AW,ABW,
+1,Afghanistan,AFG,AF,0,1,,Afghanistan,Afghanistan,,,AFGHANISTAN,,Afghanistan,AF,AFG,AS
+2,Angola,AGO,AO,0,0,,Angola,Angola,Angola,1_J3cOoOOpC9y7VuyNlRmEGzuFXdUsLms_zboRbpO,ANGOLA,,Angola,AO,AGO,AF
+3,Albania,ALB,AL,0,0,,Albania,Albania,Albania,1VNIhm5ONgnrms6oG2JeppdI-bAgZaJ9XF05WU64G,ALBANIA,,Albania,AL,ALB,EU
+4,United Arab Emirates,ARE,AE,0,0,,United Arab Emirates,United Arab Emirates,United Arab Emirates,1esZ5YcAls1YBRFrs6-xQyhd_NSrZFDW8B535PDQz,UNITED ARAB EMIRATES,,United Arab Em,AE,ARE,AS
+5,Argentina,ARG,AR,1,0,,Argentina,Argentina,Argentina,,ARGENTINA,,Argentina,AR,ARG,SA
+6,Armenia,ARM,AM,0,0,,Armenia,Armenia,Armenia,1RQ3xVz2drNxOhDA94LMcPuicBwK1EdUlGyIbbiOT,ARMENIA,,Armenia,AM,ARM,EU
+6,Armenia,ARM,AM,0,0,,Armenia,Armenia,Armenia,1RQ3xVz2drNxOhDA94LMcPuicBwK1EdUlGyIbbiOT,ARMENIA,,Armenia,AM,ARM,AS
+7,American Samoa,ASM,AS,0,1,,American Samoa,American Samoa,,,AMERICAN SAMOA,,Amer Samoa,AS,ASM,OC
+8,Antarctica,ATA,AQ,0,0,,Antarctica,Antarctica,,1lq854WDqjozm4yRUgWL5BxiZMykXdpd_UCp02Hj4,ANTARCTICA,,,AQ,ATA,AN
+9,Antigua and Barbuda,ATG,AG,0,1,,Antigua and Barbuda,Antigua and Barbuda,,,ANTIGUA & BARBUDA,,Antigua Barb,AG,ATG,
+10,Australia,AUS,AU,1,0,,Australia,Australia,Australia,,AUSTRALIA,Australia,Australia,AU,AUS,OC
+11,Austria,AUT,AT,0,0,,Austria,Austria,Austria,1gw6OofwAKr6d2qvb1SYd2LLPLMvYbYPm-YmGeO_M,AUSTRIA,Austria,Austria,AT,AUT,EU
+12,Azerbaijan,AZE,AZ,0,0,,Azerbaijan,Azerbaijan,Azerbaijan,1bN4SFBz8KDhbbctucB9EEdz7ybkwi5tbIGLTr4No,AZERBAIJAN,,Azerbaijan,AZ,AZE,EU
+12,Azerbaijan,AZE,AZ,0,0,,Azerbaijan,Azerbaijan,Azerbaijan,1bN4SFBz8KDhbbctucB9EEdz7ybkwi5tbIGLTr4No,AZERBAIJAN,,Azerbaijan,AZ,AZE,AS
+13,Burundi,BDI,BI,0,0,,Burundi,Burundi,,10qg2EX8woWAEIeHmW-vMbRtYkwAOyCiPHcgaQp9H,BURUNDI,,Burundi,BI,BDI,AF
+14,Belgium,BEL,BE,0,0,,Belgium,Belgium,Belgium,17adolUOL8E1HOL6WvZRQnk2rnW00lpZH-LNiWcWg,BELGIUM,Belgium,Belgium,BE,BEL,EU
+15,Benin,BEN,BJ,0,0,,Benin,Benin,Benin,1g_M0MMXRQ6rGHaxHiF5o4_Lt-mApc4FJ4slngncW,BENIN,,Benin,BJ,BEN,AF
+16,Burkina Faso,BFA,BF,0,0,,Burkina Faso,Burkina Faso,,1ytAnC8h4KxEi21JztKrIPPTIDGJdFqoZD_AJAGJZ,BURKINA FASO,,Burkina Faso,BF,BFA,AF
+17,Bangladesh,BGD,BD,0,0,,Bangladesh,Bangladesh,Bangladesh,1M5CZIz1tyKDXXfVXQg5-ff26i2VKmBGD6YmmNrKo,BANGLADESH,,Bangladesh,BD,BGD,AS
+18,Bulgaria,BGR,BG,0,0,,Bulgaria,Bulgaria,Bulgaria,1urZ2GbO7EDF8622ufyuVuTYLOoXhNL4uM_bhlZ8R,BULGARIA,,Bulgaria,BG,BGR,EU
+19,Bahrain,BHR,BH,0,0,,Bahrain,Bahrain,Bahrain,1jK0Vq4eaabcX3hj9Aegkn86DVnkJ0RQdI-FfIydG,BAHRAIN,,Bahrain,BH,BHR,AS
+20,Bahamas,BHS,BS,0,1,,Bahamas,Bahamas The,,,BAHAMAS,,Bahamas,BS,BHS,
+21,Bosnia and Herzegovina,BIH,BA,0,1,,Bosnia and Herzegovina,Bosnia and Herzegovina,Bosnia and Herzegovina,,BOSNIA-HERZEGOVINA,,Bosnia Herzg,BA,BIH,EU
+22,Belarus,BLR,BY,0,1,,Belarus,Belarus,Belarus,,BELARUS,,Belarus,BY,BLR,EU
+23,Belize,BLZ,BZ,0,1,,Belize,Belize,,,BELIZE,,Belize,BZ,BLZ,
+24,Bermuda,BMU,BM,0,1,,Bermuda,Bermuda,,,BERMUDA,,Bermuda,BM,BMU,
+25,Bolivia,BOL,BO,0,1,,Bolivia,Bolivia,Bolivia,,BOLIVIA,,Bolivia,BO,BOL,SA
+26,Brazil,BRA,BR,1,0,,Brazil,Brazil,Brazil,,BRAZIL,,Brazil,BR,BRA,SA
+27,Barbados,BRB,BB,0,1,,Barbados,Barbados,,,BARBADOS,,Barbados,BB,BRB,
+28,Brunei Darussalam,BRN,BN,0,1,,Brunei Darussalam,Brunei Darussalam,Brunei Darussalam,,BRUNEI,,Brunei Darsm,BN,BRN,AS
+29,Bhutan,BTN,BT,0,1,,Bhutan,Bhutan,,,BHUTAN,,Bhutan,BT,BTN,AS
+30,Botswana,BWA,BW,0,0,,Botswana,Botswana,Botswana,13jKwIaxD97vdiT3Zni7dlbLQV0uSZsxvtYeilVJG,BOTSWANA,,Botswana,BW,BWA,AF
+31,Central African Republic,CAF,CF,0,0,,Central African Republic,Central African Republic,,1OGEcex4-lfgW_AY8uBJigNOyg_RcCR6a7QiW_caM,CENTRAL AFRICAN REPUBLIC,,Cent Afr Rep,CF,CAF,AF
+32,Canada,CAN,CA,1,0,,Canada,Canada,Canada,1N6h4pIpSBNuMMkuU_Qq6Mkq40WYkM4JmCgZ9h95Y,CANADA,Canada,Canada,CA,CAN,
+33,Switzerland,CHE,CH,0,0,,Switzerland,Switzerland,Switzerland,1sjOFuTIIpJVUeU-1_TMWfs4YiJY1RULj-C7wB2Uv,SWITZERLAND,Switzerland,Switzerland,CH,CHE,EU
+34,Chile,CHL,CL,1,0,,Chile,Chile,Chile,,CHILE,Chile,Chile,CL,CHL,SA
+35,China,CHN,CN,0,0,,China,China,China,1RS4RN-R2vZ3H3w-JpBws7KaQxKl-dNwLeTyXhfoG,CHINA,,China,CN,CHN,AS
+36,Cote DIvoire,CIV,CI,0,1,,Cote DIvoire,Cote d'Ivoire,Cote d'Ivoire,,COTE D'IVOIRE,,Cote d Ivoire,CI,CIV,AF
+37,Cameroon,CMR,CM,0,0,,Cameroon,Cameroon,Cameroon,1iUU4qFnVWU1aVLalY9LsvvedM_cx2inj7rlLwkYu,CAMEROON,,Cameroon,CM,CMR,AF
+38,Democratic Republic of the Congo,COD,CD,0,0,,Democratic Republic of the Congo,Congo Dem. Rep.,DR Congo,1OKG2gnXz9gEtTHHZXWDm1dDWRDPylod2AMsCj_62,CONGO DEM REP,,Congo DR,CD,COD,AF
+39,Congo,COG,CG,0,0,,Congo,Congo Rep.,Congo,1gel6d_nj5GQxFT6E5tHOi36-FL-ghIv6Rp1EjosD,CONGO,,Congo Rep,CG,COG,AF
+40,Cook Islands,COK,CK,0,1,,Cook Islands,Cook Islands,,,COOK ISLANDS,,Cook Is,CK,COK,OC
+41,Colombia,COL,CO,0,0,,Colombia,Colombia,Colombia,1TGhHlhsfzr25iD4IF6EySpBIpwC1NuA8MC8iinc9,COLOMBIA,,Colombia,CO,COL,SA
+42,Comoros,COM,KM,0,1,,Comoros,Comoros,,,COMOROS,,Comoros,KM,COM,AF
+43,Cape Verde,CPV,CV,0,0,,Cape Verde,Cape Verde,,1-0vB0r4y_fcPqLiuYYnTSRXbanPAwTmCukgjR1BB,CAPE VERDE,,Cabo Verde,CV,CPV,AF
+44,Costa Rica,CRI,CR,0,1,,Costa Rica,Costa Rica,Costa Rica,,COSTA RICA,,Costa Rica,CR,CRI,
+45,Cuba,CUB,CU,0,0,,Cuba,Cuba,Cuba,1wNILYObp134HGWHZWrKu3DEpvkCutXWrGa2-v4Pq,CUBA,,Cuba,CU,CUB,
+46,Cayman Islands,CYM,KY,0,1,,Cayman Islands,Cayman Islands,,,CAYMAN ISLANDS,,Cayman Is,KY,CYM,
+47,Cyprus,CYP,CY,0,1,,Cyprus,Cyprus,Cyprus,,CYPRUS,,Cyprus,CY,CYP,EU
+47,Cyprus,CYP,CY,0,1,,Cyprus,Cyprus,Cyprus,,CYPRUS,,Cyprus,CY,CYP,AS
+48,Czech Republic,CZE,CZ,0,0,,Czech Republic,Czech Republic,Czech Republic,1zsEB4I998vSXHrYBVl1KH19kPZ4ez6qTxuma1TfH,CZECH REPUBLIC,Czech Republic,Czechia,CZ,CZE,EU
+49,Germany,DEU,DE,0,0,,Germany,Germany,Germany,177a30IAiHZ2P6SLnkicJHRYwfHScHMqPJawHXHvI,GERMANY,Germany,Germany,DE,DEU,EU
+50,Djibouti,DJI,DJ,0,0,,Djibouti,Djibouti,,1xWJ3dRLXqrw1FUoFOHJDw54RnTLYvZ18VDgrHJz-,DJIBOUTI,,Djibouti,DJ,DJI,AF
+51,Dominica,DMA,DM,0,1,,Dominica,Dominica,,,DOMINICA,,Dominica,DM,DMA,
+52,Denmark,DNK,DK,0,0,,Denmark,Denmark,Denmark,1CCYQ2Zt4_04e5FdWNoWlbxlTKqIIMEz-GCaJzux3,DENMARK,Denmark,Denmark,DK,DNK,EU
+53,Dominican Republic,DOM,DO,0,0,,Dominican Republic,Dominican Republic,Dominican Republic,1WX4GaumuR2b5pbJBakGD2YrEfRF_dHXFB3mtHBHh,DOMINICAN REPUBLIC,,Dominican Rep,DO,DOM,
+54,Algeria,DZA,DZ,0,0,,Algeria,Algeria,Algeria,1reOdP7OkKPIdHz_NxfYlqJe1ttIz5rMa098SRQiR,ALGERIA,,Algeria,DZ,DZA,AF
+55,Ecuador,ECU,EC,0,0,,Ecuador,Ecuador,Ecuador,16NkfFuTFmG2WBmNiuqVXloYUwn4Htux9fWEWAiDK,ECUADOR,,Ecuador,EC,ECU,SA
+56,Egypt,EGY,EG,0,0,,Egypt,Egypt,Egypt,1goPWI7vIncnbcWNApt9ZQDOIvWyjO74NMKWZYjfz,EGYPT,,Egypt,EG,EGY,AF
+57,Eritrea,ERI,ER,0,0,,Eritrea,Eritrea,Eritrea,1HyheWKfYuUTt7oa-GjKV0hAthgwHuJpoeh6Bx9XK,ERITREA,,Eritrea,ER,ERI,AF
+58,Western Sahara,ESH,EH,0,1,,Western Sahara,Western Sahara,,,WESTERN SAHARA,,Westn Sahara,EH,ESH,AF
+59,Spain,ESP,ES,0,0,,Spain,Spain,Spain,1B5-5lxbZT34kfzuxGl9oFZKSeY6TVOTcDBY3u6aA,SPAIN,Spain,Spain,ES,ESP,EU
+60,Estonia,EST,EE,0,0,,Estonia,Estonia,Estonia,1uaLz4OVpYOEmXHWxq-mKRdznCWlfPnQ5LSq5XG8K,ESTONIA,Estonia,Estonia,EE,EST,EU
+61,Ethiopia,ETH,ET,0,0,,Ethiopia,Ethiopia,Ethiopia,1s-anqM6KTdkWFxQu15YBIc5Ea6KjaK0147ODWRSI,ETHIOPIA,,Ethiopia,ET,ETH,AF
+62,Finland,FIN,FI,0,0,,Finland,Finland,Finland,14sjiAxZLLO-sC6ESFcQlfWJMZ28r-cqTL1HaJ38R,FINLAND,Finland,Finland,FI,FIN,EU
+63,Fiji,FJI,FJ,0,0,,Fiji,Fiji,,18sT6viXz7B_58flhc2j2wkR1SI-lwAxJ6U6iY6bN,FIJI,,Fiji,FJ,FJI,OC
+64,Falkland Islands,FLK,FK,0,1,,Falkland Islands,Falkland Islands,,,FALKLAND ISLANDS,,Falklands Malv,FK,FLK,SA
+65,France,FRA,FR,0,0,,France,France,France,1y7ToNGWiXttit-D4ocr5udiDviS2xz31yw0sY2RK,FRANCE,France,France,FR,FRA,EU
+66,Gabon,GAB,GA,0,0,,Gabon,Gabon,Gabon,1vngx0X2Odz7cl9kotQtiwIM6b9ae-GBp69yCHTSp,GABON,,Gabon,GA,GAB,AF
+67,United Kingdom,GBR,GB,0,0,,United Kingdom,United Kingdom,United Kingdom,1pE6eBnlUEouMnqR-yjt2h3YgSA0-Q8v28uTuGbpe,ENGLAND & WALES;SCOTLAND;NORTHERN IRELAND,United Kingdom,UK,GB,GBR,EU
+68,Georgia,GEO,GE,0,1,,Georgia,Georgia,Georgia,,GEORGIA,,Georgia,GE,GEO,EU
+68,Georgia,GEO,GE,0,1,,Georgia,Georgia,Georgia,,GEORGIA,,Georgia,GE,GEO,AS
+69,Ghana,GHA,GH,0,0,,Ghana,Ghana,Ghana,1oDzuW8_HFMvSSAuWrECsiNZLQljqF3jqwMrQ7_8_,GHANA,,Ghana,GH,GHA,AF
+70,Gibraltar,GIB,GI,0,1,,Gibraltar,Gibraltar,Gibraltar,,GIBRALTAR,,Gibraltar,GI,GIB,EU
+71,Guinea,GIN,GN,0,0,,Guinea,Guinea,,1-6jU5LHKe4DaTqbpOivUZDOb6z3MEIJDGSl63hev,GUINEA,,Guinea,GN,GIN,AF
+72,Gambia,GMB,GM,0,0,,Gambia,Gambia The,,1awRgVQNs4dc1zQmQoeqMIZ4t_6VsBBfY0byJcA0k,GAMBIA,,Gambia,GM,GMB,AF
+73,Guinea-Bissau,GNB,GW,0,0,,Guinea-Bissau,Guinea-Bissau,,1I6lyKk1t0SIHL-Ru1t0EVrs6CToKOLuZzi1E0_MM,GUINEA-BISSAU,,Guinea Bissau,GW,GNB,AF
+74,Equatorial Guinea,GNQ,GQ,0,0,,Equatorial Guinea,Equatorial Guinea,,1cqTfZQtVFsahVNXb0dZ47uOchV37HeJnGhQRYF_8,EQUATORIAL GUINEA,,Eq Guinea,GQ,GNQ,AF
+75,Greece,GRC,GR,0,0,,Greece,Greece,Greece,13DNBPsREuZdTJgaL_bF_SA7-Z4TSDXXDR-7FVHnV,GREECE,Greece,Greece,GR,GRC,EU
+76,Grenada,GRD,GD,0,1,,Grenada,Grenada,,,GRENADA,,Grenada,GD,GRD,
+77,Greenland,GRL,GL,0,1,,Greenland,Greenland,,,GREENLAND,,Greenland,GL,GRL,
+78,Guatemala,GTM,GT,0,0,,Guatemala,Guatemala,Guatemala,1vqe-t78I1jEUfq2alP4pvN-63CHEMK0xu1WAwd7m,GUATEMALA,,Guatemala,GT,GTM,
+79,French Guiana,GUF,GF,0,0,,French Guiana,French Guiana,,1x_vWKIK5UVQ97Xyexth2qfM0xYhyi0DfwB6d9TWD,FRENCH GUIANA,,Fr Guiana,GF,GUF,SA
+80,Guam,GUM,GU,0,1,USA,Guam,Guam,,1qzFTv1-TLoxxhZUzVP6FxDrdugApf02jDcyxpF9m,GUAM,,Guam,GU,GUM,OC
+81,Guyana,GUY,GY,0,0,,Guyana,Guyana,,1OGZHVVitBqQn0DrzPFcwForuhe_tjT2X5xlGIQnj,GUYANA,,Guyana,GY,GUY,SA
+82,Hong Kong,HKG,HK,0,0,,Hong Kong,Hong Kong (China),Hong Kong,,,,China HK SAR,HK,HKG,AS
+83,Honduras,HND,HN,0,0,,Honduras,Honduras,Honduras,1HFcpR7Mkvms6yJNjHTRWvmxSRGlsnHOU07ald6pv,HONDURAS,,Honduras,HN,HND,
+84,Croatia,HRV,HR,0,1,,Croatia,Croatia,Croatia,,CROATIA,,Croatia,HR,HRV,EU
+85,Haiti,HTI,HT,0,1,,Haiti,Haiti,Haiti,,HAITI,,Haiti,HT,HTI,
+86,Hungary,HUN,HU,0,0,,Hungary,Hungary,Hungary,1cpZ4PyW0h0WrhuhW3Zf0weiys9HPJ3DbBZ64i7N8,HUNGARY,Hungary,Hungary,HU,HUN,EU
+87,Indonesia,IDN,ID,0,0,,Indonesia,Indonesia,Indonesia,1f2MaYk5JpYWBhg3nL_NzjNjN9ky10Z0KzQrl5LoC,INDONESIA,,Indonesia,ID,IDN,AS
+88,India,IND,IN,1,0,IND,India,India,India,1_C9avrC5qG0v3vO7Vg50hsBlGc-8TJqMZYXRs82H,INDIA,,India,IN,IND,AS
+89,Ireland,IRL,IE,0,0,,Ireland,Ireland,Ireland,1_Ty6KAmJx-GcP-rO2eKUzfUgUGiupjxmjclaxRM2,IRELAND,Ireland,Ireland,IE,IRL,EU
+90,Iran,IRN,IR,0,0,,Islamic Republic of Iran,Iran,Iran,1jm1R1jpYyT0KdsFt3o5_EMHweGayMIeuHhMd6kD6,IRAN,,Iran IR,IR,IRN,AS
+91,Iraq,IRQ,IQ,0,0,,Iraq,Iraq,Iraq,17bbUY3m1yq9uBldZ6jUycZdTQu3vGiavabbx_LV8,IRAQ,,Iraq,IQ,IRQ,AS
+92,Iceland,ISL,IS,0,0,,Iceland,Iceland,Iceland,1WvHKYT67hf51Q4DhGMMkdzwB9NtgV58PLSUgc4Sb,ICELAND,Iceland,Iceland,IS,ISL,EU
+93,Israel,ISR,IL,0,0,,Israel,Israel,Israel,1ynOCzdqgBS1cPA1oO30Rj0k4YkVQX7RIbZxN25j-,ISRAEL,Israel,Israel,IL,ISR,AS
+94,Italy,ITA,IT,0,0,,Italy,Italy,Italy,1uUg7Nfxvo3lqLq8nPkpZKzDjZaFDSYM3GiMd81Df,ITALY,Italy,Italy,IT,ITA,EU
+95,Jamaica,JAM,JM,0,0,,Jamaica,Jamaica,Jamaica,1pQqR0OlwAxc9z1fwbwzk_VYg6XQF3YH12ju4M8mo,JAMAICA,,Jamaica,JM,JAM,
+96,Jordan,JOR,JO,0,1,,Jordan,Jordan,Jordan,,JORDAN,,Jordan,JO,JOR,AS
+97,Japan,JPN,JP,0,0,,Japan,Japan,Japan,1BiLTCH0jWB-4nw8UOSXGEFMQesSSenu6jommqSB8,JAPAN,Japan,Japan,JP,JPN,AS
+98,Kazakhstan,KAZ,KZ,0,0,,Kazakhstan,Kazakhstan,Kazakhstan,13SXgZ2V4hskbTZqcLgo8oYocz-K7GyDbhOfCNP5V,KAZAKHSTAN,,Kazakhstan,KZ,KAZ,EU
+98,Kazakhstan,KAZ,KZ,0,0,,Kazakhstan,Kazakhstan,Kazakhstan,13SXgZ2V4hskbTZqcLgo8oYocz-K7GyDbhOfCNP5V,KAZAKHSTAN,,Kazakhstan,KZ,KAZ,AS
+99,Kenya,KEN,KE,0,0,,Kenya,Kenya,Kenya,1C3B3s05X3FLO-S7HH8ZEjA13S5GaIFYMZt_FeZeZ,KENYA,,Kenya,KE,KEN,AF
+100,Kyrgyzstan,KGZ,KG,0,1,,Kyrgyzstan,Kyrgyz Republic,Kyrgyzstan,,KYRGYZSTAN,,Kyrgyzstan,KG,KGZ,AS
+101,Kiribati,KIR,KI,0,1,,Kiribati,Kiribati,,,KIRIBATI,,Kiribati,KI,KIR,OC
+102,Cambodia,KHM,KH,0,0,,Cambodia,Cambodia,Cambodia,1KnttgA_48LNysMskovtpATHxvhVq8blWoF96IxGr,CAMBODIA,,Cambodia,KH,KHM,AS
+103,Saint Kitts and Nevis,KNA,KN,0,1,,Saint Kitts and Nevis,Saint Kitts and Nevis,,,ST KITTS & NEVIS,,St Kitts Nevis,KN,KNA,
+104,South Korea,KOR,KR,0,0,,Republic of Korea,South Korea,Korea,1is0siOUdTihCTnmQkPqqQ61tcXTKP9sMP4R-GdrX,SOUTH KOREA,Korea,Korea Rep,KR,KOR,AS
+105,Kosovo,KOS,,0,1,,Kosovo,Kosovo,,,KOSOVO,,Kosovo*,,,
+106,Kuwait,KWT,KW,0,0,,Kuwait,Kuwait,Kuwait,1oDRIXOSWM7VF0H3lw_JewcS1mSvhqUgkFQYS2u8M,KUWAIT,,Kuwait,KW,KWT,AS
+107,Laos,LAO,LA,0,0,,Peoples Democratic Republic of Lao,Laos,,1D-BqIkb3a81ZEWrEp7c8yiL9gR-WdXD90LlHBRMU,LAOS,,Lao PDR,LA,LAO,AS
+108,Lebanon,LBN,LB,0,0,,Lebanon,Lebanon,Lebanon,1AHFslM7y6li9HU3-Vi-vVAxixmx_1ZwvrzAG2xgL,LEBANON,,Lebanon,LB,LBN,AS
+109,Liberia,LBR,LR,0,0,,Liberia,Liberia,,1KvxkIQmNryZfp7Bd3BUVy4g4_vUEaCu_245hH-4W,LIBERIA,,Liberia,LR,LBR,AF
+110,Libya,LBY,LY,0,0,,Libyan Arab Jamahiriya,Libya,Libya,1BV5841YPegDWrAgvq6JhggzWXdrtC4AG4zwfLvot,LIBYA,,Libya,LY,LBY,AF
+111,Saint Lucia,LCA,LC,0,1,,Saint Lucia,Saint Lucia,,,ST LUCIA,,St Lucia,LC,LCA,
+112,Sri Lanka,LKA,LK,0,0,,Sri Lanka,Sri Lanka,Sri Lanka,1oOXUOgz83UYmuDk37q4tkoGLVk2VOwxKrbD1fKHd,SRI LANKA,,Sri Lanka,LK,LKA,AS
+113,Lesotho,LSO,LS,0,0,,Lesotho,Lesotho,,1bvnwvLQreaKeOaegzPIiHa0_odJ53137I9biTZVT,LESOTHO,,Lesotho,LS,LSO,AF
+114,Lithuania,LTU,LT,0,1,,Lithuania,Lithuania,Lithuania,,LITHUANIA,Lithuania,Lithuania,LT,LTU,EU
+115,Luxembourg,LUX,LU,0,1,,Luxembourg,Luxembourg,Luxembourg,,LUXEMBOURG,Luxembourg,Luxembourg,LU,LUX,EU
+116,Latvia,LVA,LV,0,0,,Latvia,Latvia,Latvia,1NK7efqLBI4x9Tcn-hHd8DGyx6-hSt3mv1xMIrf_y,LATVIA,Latvia,Latvia,LV,LVA,EU
+117,Macao,MAC,MO,0,1,,Macau,Macau (China),,,,,China Mac SAR,MO,MAC,AS
+118,Morocco,MAR,MA,0,0,,Morocco,Morocco,Morocco,1HBXH-B4rZvAihfJlOsoxx7DF3CnHYALnix0sVuou,MOROCCO,,Morocco,MA,MAR,AF
+119,Moldova,MDA,MD,0,0,,Republic of Moldova,Moldova,Moldova,1ruuC0fFSNWwZXXRRL2cgm-8b955bZwHu5PMimdXs,MOLDOVA,,Moldova Rep,MD,MDA,EU
+120,Madagascar,MDG,MG,0,0,,Madagascar,Madagascar,,1-6M13NPhqEpfhc6R7AfbTmj8Jbbk7JEPGVdI_RHZ,MADAGASCAR,,Madagascar,MG,MDG,AF
+121,Maldives,MDV,MV,0,1,,Maldives,Maldives,,,MALDIVES,,Maldives,MV,MDV,AS
+122,Mexico,MEX,MX,1,0,,Mexico,Mexico,Mexico,1PkdLU7YcjjRE3ARWAfvBELvaItlELJdZs3W8YZBw,MEXICO,Mexico,Mexico,MX,MEX,
+123,Macedonia,MKD,MK,0,1,,Republic of Macedonia,Macedonia,FYR Macedonia,,MACEDONIA,,North Macedonia,MK,MKD,EU
+124,Mali,MLI,ML,0,1,,Mali,Mali,,,MALI,,Mali,ML,MLI,AF
+125,Malta,MLT,MT,0,1,,Malta,Malta,Malta,,MALTA,,Malta,MT,MLT,EU
+126,Myanmar,MMR,MM,0,0,,Myanmar,Myanmar,Myanmar,1_xex47tAorXrCekSu-QtoIFx29C7wk1b6vH1zBm9,MYANMAR,,Myanmar,MM,MMR,AS
+127,Montenegro,MNE,ME,0,1,,Montenegro,Montenegro,Montenegro,,MONTENEGRO,,Montenegro,ME,MNE,EU
+128,Mongolia,MNG,MN,0,0,,Mongolia,Mongolia,Mongolia,1zVpZ-37jkjUZgTFd3hkqCzexnMQM9rIykV9-OCJ4,MONGOLIA,,Mongolia,MN,MNG,AS
+129,Mozambique,MOZ,MZ,0,0,,Mozambique,Mozambique,Mozambique,1ieN9JdFzSSVSndto7ks0HunjY3M997qHVQpAY2se,MOZAMBIQUE,,Mozambique,MZ,MOZ,AF
+130,Mauritania,MRT,MR,0,0,,Mauritania,Mauritania,,1Xq9T38uy_1JvNXIX8cDXgxxeNErgb8aOSOCqICXU,MAURITANIA,,Mauritania,MR,MRT,AF
+131,Montserrat,MSR,MS,0,1,,Montserrat,Montserrat,,,MONTSERRAT,,Montserrat,MS,MSR,
+132,Martinique,MTQ,MQ,0,1,,Martinique,Martinique,,,MARTINIQUE,,Martinique,MQ,MTQ,
+133,Mauritius,MUS,MU,0,0,,Mauritius,Mauritius,Mauritius,1EuaqDZBcS0g13AyfrAD6DQ2dQBbngm4oUflGX6Zn,MAURITIUS,,Mauritius,MU,MUS,AF
+134,Malawi,MWI,MW,0,0,,Malawi,Malawi,,1lNiLxwWcDzUii48gMCtob1VYQcGCw-91NqMbopUu,MALAWI,,Malawi,MW,MWI,AF
+135,Malaysia,MYS,MY,0,0,,Malaysia,Malaysia,Malaysia,1No4nOaHSysC2JNX8Ns_MSx6SWjFcwfnIemYxAw2V,MALAYSIA,,Malaysia,MY,MYS,AS
+136,Namibia,NAM,,0,0,,Namibia,Namibia,Namibia,1TNI3_JTgY_rbarA2SwDuT405V5eXm2uI8_tc4mAv,NAMIBIA,,Namibia,,NAM,AF
+137,New Caledonia,NCL,NC,0,1,,New Caledonia,New Caledonia,,,NEW CALEDONIA,,New Caledon,NC,NCL,OC
+138,Niger,NER,NE,0,0,,Niger,Niger,Niger,13UVE5h7ZgITGcFUJEqdTD2rw6DWHygBDFPZgZbAB,NIGER,,Niger,NE,NER,AF
+139,Nigeria,NGA,NG,0,0,,Nigeria,Nigeria,Nigeria,1C1wk7P1yuzGNOFXibbE6-rQIi-sbCjLFN-BwgFVh,NIGERIA,,Nigeria,NG,NGA,AF
+140,Nicaragua,NIC,NI,0,1,,Nicaragua,Nicaragua,Nicaragua,,NICARAGUA,,Nicaragua,NI,NIC,
+141,Niue,NIU,NU,0,1,,Niue,Niue,,,NIUE,,Niue,NU,NIU,OC
+142,Netherlands,NLD,NL,0,0,,Netherlands,Netherlands,Netherlands,1uoWTMjy0Jv_Mw5hGqyQDQ6_8HCoc4vJ5lGAt5BAR,NETHERLANDS,Netherlands,Netherlands,NL,NLD,EU
+143,Norway,NOR,NO,0,0,,Norway,Norway,Norway,1i8vhhIzhrERFowNkUrpsYHldvaxINN7Pjf6HoTWY,NORWAY,Norway,Norway,NO,NOR,EU
+144,Nepal,NPL,NP,0,1,,Nepal,Nepal,Nepal,,NEPAL,,Nepal,NP,NPL,AS
+145,Nauru,NRU,NR,0,1,,Nauru,Nauru,,,NAURU,,Nauru,NR,NRU,OC
+146,New Zealand,NZL,NZ,0,0,,New Zealand,New Zealand,New Zealand,1_a0IYQA-TG8OOq1RLVF5jlYgo1MbvPSQgUVq6wON,NEW ZEALAND,New Zealand,New Zealand,NZ,NZL,OC
+147,Oman,OMN,OM,0,0,,Oman,Oman,,143h3LFcQtQS3rNkfHphPKaRNKungmOpdKnipGAtQ,OMAN,,Oman,OM,OMN,AS
+148,Pakistan,PAK,PK,0,0,,Pakistan,Pakistan,Pakistan,1g1f7b7BpnXp4re_2ePvqbxifYIqBboqRz6vdKjOF,PAKISTAN,,Pakistan,PK,PAK,AS
+149,Panama,PAN,PA,0,1,,Panama,Panama,Panama,,PANAMA,,Panama,PA,PAN,
+150,Peru,PER,PE,0,0,,Peru,Peru,Peru,1Pw75h5yqQmeIxBRUMl6x3AgcAqSphpxfGGBFlXwh,PERU,,Peru,PE,PER,SA
+151,Philippines,PHL,PH,0,0,,Philippines,Philippines,Philippines,1_SYWFKijBMkngeei3tocyWpM-Ygfzv4RK8EjjwoH,PHILIPPINES,,Philippines,PH,PHL,AS
+152,Papua New Guinea,PNG,PG,0,0,,Papua New Guinea,Papua New Guinea,,1HkdPb2XaM9aQ_whdaE0rPTAyk_LRsijrk-NsuWOh,PAPUA NEW GUINEA,,Papua N Guin,PG,PNG,OC
+153,Poland,POL,PL,0,0,,Poland,Poland,Poland,1nLWRi77zh_A7-jT2GtDdoRKwFbG51wz83Xz-LaXk,POLAND,Poland,Poland,PL,POL,EU
+154,Puerto Rico,PRI,PR,0,0,USA,Puerto Rico,Puerto Rico,,1zX5-uhaWCQI5k_h5e400ikuMTM7xiffLIej6Donb,,,Puerto Rico,PR,PRI,
+155,North Korea,PRK,KP,0,0,,North Korea,North Korea,"Korea, DPR",1zZYSPKF1WFvV3TWdyvGXGr4ydjyWEDR7SZkqjjQo,NORTH KOREA,,Korea DPR,KP,PRK,AS
+156,Portugal,PRT,PT,0,0,,Portugal,Portugal,Portugal,1beteLkIcmft48AHCFCDjvVEdyW5iu_qr6415udcD,PORTUGAL,Portugal,Portugal,PT,PRT,EU
+157,Paraguay,PRY,PY,0,0,,Paraguay,Paraguay,Paraguay,1aowtEttK8_UnTYeXUJKbNHU5uc8VqCDTEwV84CRZ,PARAGUAY,,Paraguay,PY,PRY,SA
+158,Palestine,PSE,PS,0,1,,Palestine,Palestine,,,PALESTINE,,Palestine,PS,PSE,AS
+159,French Polynesia,PYF,PF,0,1,,French Polynesia,French Polynesia,,,FRENCH POLYNESIA,,Fr Polynesia,PF,PYF,OC
+160,Qatar,QAT,QA,0,1,,Qatar,Qatar,Qatar,,QATAR,,Qatar,QA,QAT,AS
+161,Reunion,REU,RE,0,1,,Reunion,Reunion,,,REUNION,,Reunion,RE,REU,AF
+162,Romania,ROU,RO,0,0,,Romania,Romania,Romania,1K8EfaLltxFbRzqU_HvqLsyAkICeL2tfoXYqeNCVo,ROMANIA,,Romania,RO,ROU,EU
+163,Russia,RUS,RU,0,0,,Russian Federation,Russia,Russia,1tDRBUs6JqPEQ2n4pWVDBnWahGQSjsn8k_-6kMjrF,RUSSIA,,Russian Fed,RU,RUS,EU
+163,Russia,RUS,RU,0,0,,Russian Federation,Russia,Russia,1tDRBUs6JqPEQ2n4pWVDBnWahGQSjsn8k_-6kMjrF,RUSSIA,,Russian Fed,RU,RUS,AS
+164,Rwanda,RWA,RW,0,0,,Rwanda,Rwanda,,1wY9ne4WK38O-NxZ8Rc5ytqabIdyqic1o0runVjzx,RWANDA,,Rwanda,RW,RWA,AF
+165,Saudi Arabia,SAU,SA,0,0,,Saudi Arabia,Saudi Arabia,Saudi Arabia,1KX9IwGAlnqgvS-GN-IzfjjHwoUXHtZu02xcJaFaE,SAUDI ARABIA,,Saudi Arabia,SA,SAU,AS
+166,Sudan,SDN,SD,0,0,,Sudan,Sudan,Sudan,10wxXpZvIf5VUAKmonJcXA6o-AHPF-oVdBkLTVO0U,SUDAN,,Sudan,SD,SDN,AF
+167,Senegal,SEN,SN,0,0,,Senegal,Senegal,Senegal,1hwzwkoR_fSUykrGI4FISDlDNzCuNHbYma6V0_3qw,SENEGAL,,Senegal,SN,SEN,AF
+168,Singapore,SGP,SG,0,1,,Singapore,Singapore,Singapore,,SINGAPORE,,Singapore,SG,SGP,AS
+169,Saint Helena,SHN,SH,0,1,,Saint Helena,Saint Helena,,,ST HELENA,,Saint Helena,SH,SHN,AF
+170,Solomon Islands,SLB,SB,0,1,,Solomon Islands,Solomon Islands,,,SOLOMON ISLANDS,,Solomon Is,SB,SLB,OC
+171,Sierra Leone,SLE,SL,0,0,,Sierra Leone,Sierra Leone,,1zGUlNYGImwOGYyKxdOggI3tonYVSg_JoxDKiP5q9,SIERRA LEONE,,Sierra Leone,SL,SLE,AF
+172,El Salvador,SLV,SV,0,1,,El Salvador,El Salvador,El Salvador,,EL SALVADOR,,El Salvador,SV,SLV,
+173,Somalia,SOM,SO,0,1,,Somalia,Somalia,,,SOMALIA,,Somalia,SO,SOM,AF
+174,Saint Pierre and Miquelon,SPM,PM,0,1,,Saint Pierre and Miquelon,Saint Pierre and Miquelon,,,ST PIERRE & MIQUELON,,St Pierre Mq,PM,SPM,
+175,Serbia,SRB,RS,0,0,,Serbia,Serbia,Serbia,1Q9Mt3UuhfDgAK09TXALHvimZGxGL-SDQ4G_BHrZ8,SERBIA,,Serbia,RS,SRB,EU
+176,Sao Tome and Principe,STP,ST,0,1,,Sao Tome and Principe,Sao Tome and Principe,,,SAO TOME & PRINCIPE,,Sao Tome Prn,ST,STP,AF
+177,Suriname,SUR,SR,0,0,,Suriname,Suriname,Suriname,1-nU-8hP2yX8Nz-TMhAD1fHi3AT4PdOSgW67pVVty,SURINAME,,Suriname,SR,SUR,SA
+178,Slovakia,SVK,SK,0,1,,Slovakia,Slovak Republic,Slovak Republic,,SLOVAKIA,Slovak Republic,Slovakia,SK,SVK,EU
+179,Slovenia,SVN,SI,0,0,,Slovenia,Slovenia,Slovenia,15HUyHpO_Dm_s29ISVaDacZFv4Tl5ejYokWpAtR3j,SLOVENIA,Slovenia,Slovenia,SI,SVN,EU
+180,Sweden,SWE,SE,0,0,,Sweden,Sweden,Sweden,14Nln4pC-W8ZMwzo2JpXYgeVMHH7OQjECOzm6-kPR,SWEDEN,Sweden,Sweden,SE,SWE,EU
+181,Swaziland,SWZ,SZ,0,0,,Swaziland,Swaziland,,1gNLjuyp_obZpOvQF8Yck1hQNWVhhB9M6e3olWToI,SWAZILAND,,Eswatini,SZ,SWZ,AF
+182,Seychelles,SYC,SC,0,1,,Seychelles,Seychelles,,,SEYCHELLES,,Seychelles,SC,SYC,AF
+183,Syrian Arab Republic,SYR,SY,0,1,,Syrian Arab Republic,Syria,Syria,,SYRIA,,Syrian AR,SY,SYR,AS
+184,Turks and Caicos Islands,TCA,TC,0,1,,Turks and Caicos Islands,Turks and Caicos Islands,,,TURKS & CAICOS,,Turks Caicos,TC,TCA,
+185,Chad,TCD,TD,0,1,,Chad,Chad,,,CHAD,,Chad,TD,TCD,AF
+186,Togo,TGO,TG,0,0,,Togo,Togo,Togo,1najHhCbdChPYIjkeAUK30oC-NVgH1i5CWuVgskr2,TOGO,,Togo,TG,TGO,AF
+187,Thailand,THA,TH,0,0,,Thailand,Thailand,Thailand,1hOohxsKlXVhdH1niBtBRNMNcYjrxL7ZJZRmW-RkU,THAILAND,,Thailand,TH,THA,AS
+188,Tajikistan,TJK,TJ,0,0,,Tajikistan,Tajikistan,Tajikistan,1r6KoWmZ8fhqQ0Zf-03Hn4UaxxIsGVt4I0ou-ARJz,TAJIKISTAN,,Tajikistan,TJ,TJK,AS
+189,Turkmenistan,TKM,TM,0,1,,Turkmenistan,Turkmenistan,Turkmenistan,,TURKMENISTAN,,Turkmenistan,TM,TKM,AS
+190,Timor-Leste,TLS,TL,0,1,,Timor-Leste,Timor-Leste,,,TIMOR LESTE,,Timor Leste,TL,TLS,AS
+191,Tonga,TON,TO,0,1,,Tonga,Tonga,,,TONGA,,Tonga,TO,TON,OC
+192,Trinidad and Tobago,TTO,TT,0,0,,Trinidad and Tobago,Trinidad and Tobago,Trinidad and Tobago,1pTYViUhh09R7iLZI4cOYfBbmItMJfeGzvcDt9VWa,TRINIDAD & TOBAGO,,Trinidad Tobago,TT,TTO,
+193,Tunisia,TUN,TN,0,0,,Tunisia,Tunisia,Tunisia,1wNbB4jKVuFLIg5S7BU8ycvX6YSqGS9AMLilGfLnV,TUNISIA,,Tunisia,TN,TUN,AF
+194,Turkey,TUR,TR,0,0,,Turkey,Turkey,Turkey,1wPTcNyduXR8BSMtARa8yeZdGTycNKXd3iZG2OGXQ,TURKEY,Turkey,Turkey,TR,TUR,EU
+194,Turkey,TUR,TR,0,0,,Turkey,Turkey,Turkey,1wPTcNyduXR8BSMtARa8yeZdGTycNKXd3iZG2OGXQ,TURKEY,Turkey,Turkey,TR,TUR,AS
+195,Taiwan,TWN,TW,0,0,,Republic of China Taiwan,Taiwan,Chinese Taipei,1XU8QsIoDSHmS37OqcsDQbBxfaa8lOp7O0mNAZge2,TAIWAN,,Chinese Taipei,TW,TWN,AS
+196,Tanzania,TZA,TZ,0,0,,United Republic of Tanzania,Tanzania,Tanzania,1jQBaxZo_TZp1z5ISMQq1Z0E0wnl5GTG-iBd0icJA,TANZANIA,,Tanzania,TZ,TZA,AF
+197,Uganda,UGA,UG,0,0,,Uganda,Uganda,,1dOIlnBMFfl1wrwt1JbqQuqRPjM8fv3r60xJoWYmc,UGANDA,,Uganda,UG,UGA,AF
+198,Ukraine,UKR,UA,0,0,,Ukraine,Ukraine,Ukraine,1dq6b68_1aF2QY0Z3bVAt-UB3N4U2TzNBiypvA3xr,UKRAINE,,Ukraine,UA,UKR,EU
+199,Uruguay,URY,UY,1,0,,Uruguay,Uruguay,Uruguay,1PqULDuACYuOqNZa2PfBXs-VhzbcGF1YDRcZB0GqE,URUGUAY,,Uruguay,UY,URY,SA
+200,United States of America,USA,US,1,0,,United States of America,United States,United States,,USA,United States,USA,US,USA,
+201,Uzbekistan,UZB,UZ,0,0,,Uzbekistan,Uzbekistan,Uzbekistan,1nst0mo3ft3uD5tn4g9jPzwQP0hvtjDv6C4KQGHK6,UZBEKISTAN,,Uzbekistan,UZ,UZB,AS
+202,Saint Vincent and the Grenadines,VCT,VC,0,1,,Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,,,ST VINCENT & GRENADINES,,St Vincent Gren,VC,VCT,
+203,Venezuela,VEN,VE,0,0,,Venezuela,Venezuela,Venezuela,1C4K3j7Pv_mRgY30InyEYexR3KjKHudbeaNMH6H6S,VENEZUELA,,Venezuela,VE,VEN,SA
+204,British Virgin Islands,VGB,VG,0,1,,British Virgin Islands,British Virgin Islands,,,BRITISH VIRGIN ISLANDS,,Br Virgin Is,VG,VGB,
+205,Vietnam,VNM,VN,0,0,,Viet Nam,Vietnam,Viet Nam,10WHpc9fcqZzV0kxoKdsKjdvLY21MPMmcQ6dLjYUT,VIETNAM,,Viet Nam,VN,VNM,AS
+206,Vanuatu,VUT,VU,0,1,,Vanuatu,Vanuatu,,,VANUATU,,Vanuatu,VU,VUT,OC
+207,Samoa,WSM,WS,0,1,,Samoa,Samoa,,,SAMOA,,Samoa,WS,WSM,OC
+208,Yemen,YEM,YE,0,0,,Yemen,Yemen,Yemen,1BdjAEd3eyPe3nEM6W5UOh9ho-LAwN_i5JkpLDc_u,YEMEN,,Yemen,YE,YEM,AS
+209,South Africa,ZAF,ZA,0,0,,South Africa,South Africa,South Africa,1bsLeqp3vEfMbJ02BWTPxxpgiIFrKWfbNpIoX4JUV,SOUTH AFRICA,,South Africa,ZA,ZAF,AF
+210,Zambia,ZMB,ZM,0,0,,Zambia,Zambia,Zambia,13KB7Bv_TswCRNC0xVQF2iYlZ1Qk5V2A7vkPfBBoh,ZAMBIA,,Zambia,ZM,ZMB,AF
+211,Zimbabwe,ZWE,ZW,0,1,,Zimbabwe,Zimbabwe,Zimbabwe,,ZIMBABWE,,Zimbabwe,ZW,ZWE,AF

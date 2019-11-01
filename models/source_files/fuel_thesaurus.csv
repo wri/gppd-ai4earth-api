@@ -1,0 +1,4 @@
+﻿primary_fuel_type,OECD_fuel_type,PLATTS_fuel_type
+Coal,Coal and coal products,COAL
+Gas,Natural gas,GAS
+Oil,Liquid fuels and refinery gas,OIL
