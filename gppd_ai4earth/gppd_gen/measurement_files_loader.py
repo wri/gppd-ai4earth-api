@@ -56,6 +56,7 @@ def read_hydro_basin():
 	all_basins = pd.DataFrame()
 
 	for c in CONTINENTS:
+		print(c)
 		path_partial = 'hybas_{0}_lev01-12_v1c/hybas_{0}_lev12_v1c.shp'.format(c)
 		full_path = os.path.join(HYDRO_BASIN_PATH, path_partial)
 		all_basins = pd.concat([all_basins, gpd.read_file(full_path)])

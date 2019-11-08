@@ -156,7 +156,9 @@ class Estimator:
 			self.lat_lon_check(lat, lon)
 
 			country_capacity_factor = self.cf_getter.retrieve_capacity_factor(estimating_year, country, fuel_type)
+
 			projector = self.get_or_load_natural_resources_getter(fuel_type)
+
 			hydro_indicators = projector.area_measurements(estimating_year, lat, lon)
 
 			return np.array([capacity_mw, 
@@ -255,14 +257,21 @@ class Estimator:
 		assert 'fuel_type' in kwargs, self.messages['fuel_type_missing'] + '\n' + self.messages['available_fuel_types']
 		assert kwargs['fuel_type'] in VALID_FUEL_TYPES, self.messages['fuel_type_error'] + '\n' + self.messages['available_fuel_types']
 
+		# print('In func estimates: parameter check')
 		fuel_type = kwargs['fuel_type']
 		self.parameter_sanity_check(fuel_type, kwargs)
-
+		
+		# print('In func estimates: feature_transformation')
 		final_features = self.feature_transformation(fuel_type, kwargs)
+
+		# print('In func estimates: load model')
 		model = self.get_or_load_model(fuel_type)
 
+		# print('In func estimates: predict')
 		if (np.isnan(final_features).any()):
 			return np.NaN
+
+		# print('prediction: {}'.format(model.predict(final_features)[0]))
 		return model.predict(final_features)[0]
 
 

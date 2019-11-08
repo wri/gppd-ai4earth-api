@@ -177,8 +177,6 @@ class BasinDelineator:
 		self.check_geodf_existance()
 
 		target_polygon_id = self.get_target_polygon(lat, lon)
-		if not target_polygon_id:
-			return False
 
 		drainage_area = self.get_drainage_polygons_bfs(target_polygon_id)
 		return drainage_area, target_polygon_id
@@ -187,13 +185,12 @@ class BasinDelineator:
 
 	def rank_candidate_by_dist(self,lat,lon):
 		self.geodf['temp_distance'] = np.sqrt((self.geodf['centroid_lat'] - lat) ** 2 + (self.geodf['centroid_lon'] - lon) ** 2)
-		return self.geodf.sort_values('temp_distance').head(100)
+		return self.geodf.sort_values('temp_distance').head(50)
 		
 		
 		
 	def get_target_polygon(self,lat,lon):
 		candidates = self.rank_candidate_by_dist(lat,lon)
-		
 		point = geometry.Point(lon,lat)
 		for basin_id in candidates['HYBAS_ID']:
 			
@@ -201,7 +198,7 @@ class BasinDelineator:
 			if candidate_polygon.contains(point):
 				return basin_id
 
-		return False
+		raise Exception('Not able to locate the target basin, please check if the location is valid')
 				
 	
 
@@ -212,7 +209,6 @@ class BasinDelineator:
 
 
 	def get_drainage_polygons_bfs(self, target_polygon_id):
-		
 		results = []
 		queue = []
 		visited = set()

@@ -2,7 +2,10 @@ from gppd_ai4earth.gppd_gen.geo_utils import MapLocater, BasinDelineator
 from gppd_ai4earth.gppd_gen.measurement_files_loader import read_monthly_wind_speed, read_monthly_solar_irradiance, read_monthly_hydro_runoff, HYDRO_BASIN_MEASUREMENTS, HYDRO_RUNOFF_MEASUREMENTS
 from itertools import product
 import numpy as np
-import salem
+from rasterio import features
+from affine import Affine
+import xarray as xr
+# import salem
 
 
 P = 1
@@ -46,7 +49,7 @@ class MeasurementsAggregator:
 		for measurement in list(measurements.keys()):
 			values_map = measurements[measurement]
 			values = self.indexes_to_values(dist_dict, values_map)
-			distances = [d[0] for d in dist_dict]
+			distances = [0.0001 if d[0] == 0 else d[0] for d in dist_dict]
 			results[measurement] = self.idw(distances, values)
 		return results
 
@@ -105,24 +108,108 @@ class HydroRunoffProjector(MeasurementsAggregator):
 
 
 	def area_measurements(self, year, lat, lon):
+		# print('In func area_measurements')
 		year = self.formatting_int(year)
+
+		# print('In func area_measurements: fetch monthly hydro runoff')
 		measurements = self.access_or_fetch(year)
 
+		# print('In func area_measurements: delineate basin')
 		drainage_area, target_polygon_id = self.locater.delineate_basin(lat, lon)
-		clipped_measurements = self.clip_roi(measurements, drainage_area)
 
-		results = {}
+		# print(measurements)
+		# print(drainage_area)
+
+		# print('In func area_measurements: clip roi')
+		measurements = self.add_shape_coord_from_data_array(measurements, drainage_area['geometry'], "mask")
+		cropped_measurements = measurements.where(measurements.mask.notnull(), other=np.nan)
 
 		target_polygon = drainage_area[drainage_area['HYBAS_ID'] == target_polygon_id]
+		results = {}
+
 		for target_polygon_measurement in HYDRO_BASIN_MEASUREMENTS:
 			results[target_polygon_measurement] = target_polygon[target_polygon_measurement].values[0]
 
 		for drainage_measurement in HYDRO_RUNOFF_MEASUREMENTS:
-			results[drainage_measurement] = np.nansum(np.array(clipped_measurements[drainage_measurement]))
+			results[drainage_measurement] = np.nansum(cropped_measurements[drainage_measurement])
 
+		# print('In func area_measurements: {}'.format(results))
 		return results
 
 
 
-	def clip_roi(self, array, shape):
-		return array.salem.roi(shape = shape)
+	# def clip_roi(self, array, shape):
+	# 	return array.salem.roi(shape = shape)
+
+
+
+	def transform_from_latlon(self, lat, lon):
+		""" input 1D array of lat / lon and output an Affine transformation
+		"""
+		lat = np.asarray(lat)
+		lon = np.asarray(lon)
+		trans = Affine.translation(lon[0], lat[0])
+		scale = Affine.scale(lon[1] - lon[0], lat[1] - lat[0])
+		return trans * scale
+
+
+
+	def rasterize(self, shapes, coords, latitude='lat', longitude='lon',
+				  fill=np.nan, **kwargs):
+		"""Rasterize a list of (geometry, fill_value) tuples onto the given
+		xray coordinates. This only works for 1d latitude and longitude
+		arrays.
+
+		arguments:
+		---------
+		: **kwargs (dict): passed to `rasterio.rasterize` function
+
+		attrs:
+		-----
+		:transform (affine.Affine): how to translate from latlon to ...?
+		:raster (numpy.ndarray): use rasterio.features.rasterize fill the values
+		  outside the .shp file with np.nan
+		:spatial_coords (dict): dictionary of {"X":xr.DataArray, "Y":xr.DataArray()}
+		  with "X", "Y" as keys, and xr.DataArray as values
+
+		returns:
+		-------
+		:(xr.DataArray): DataArray with `values` of nan for points outside shapefile
+		  and coords `Y` = latitude, 'X' = longitude.
+
+
+		"""
+		transform = self.transform_from_latlon(coords[latitude], coords[longitude])
+		out_shape = (len(coords[latitude]), len(coords[longitude]))
+		raster = features.rasterize(shapes, out_shape=out_shape,
+									fill=fill, transform=transform,
+									dtype=float, **kwargs)
+		spatial_coords = {latitude: coords[latitude], longitude: coords[longitude]}
+		return xr.DataArray(raster, coords=spatial_coords, dims=(latitude, longitude))
+
+
+
+	def add_shape_coord_from_data_array(self, xr_da, shp_gpd, coord_name):
+		""" Create a new coord for the xr_da indicating whether or not it 
+			 is inside the shapefile
+
+			Creates a new coord - "coord_name" which will have integer values
+			 used to subset xr_da for plotting / analysis/
+
+			Usage:
+			-----
+			precip_da = add_shape_coord_from_data_array(precip_da, "awash.shp", "awash")
+			awash_da = precip_da.where(precip_da.awash==0, other=np.nan) 
+		"""
+		# 1. read in shapefile
+	#     shp_gpd = gpd.read_file(shp_path)
+
+		# 2. create a list of tuples (shapely.geometry, id)
+		#    this allows for many different polygons within a .shp file (e.g. States of US)
+		shapes = [(shape, n) for n, shape in enumerate(shp_gpd.geometry)]
+
+		# 3. create a new coord in the xr_da which will be set to the id in `shapes`
+		xr_da[coord_name] = self.rasterize(shapes, xr_da.coords, 
+								   longitude='lon', latitude='lat')
+
+		return xr_da
