@@ -1,2 +1,6 @@
 **/.ipynb_checkpoints
 **/__pycache__
+
+# Ignore the hydro_runoff and HydroBasins directory which contains large files for now
+**/hydro_runoff
+**/HydroBasins
