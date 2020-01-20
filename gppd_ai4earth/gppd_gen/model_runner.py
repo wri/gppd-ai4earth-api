@@ -99,14 +99,22 @@ class Estimator:
 			country = all_features['country']
 			capacity_mw = all_features['capacity_mw']
 			estimating_year = all_features['estimating_year']
-			commissioning_year = all_features['commissioning_year']
+
+			commissioning_year = np.NaN
+			if 'commissioning_year' in all_features:
+				commissioning_year = all_features['commissioning_year']
+
 			fuel_type = all_features['fuel_type']
 			lat = all_features['lat']
 			lon = all_features['lon']
 			self.lat_lon_check(lat, lon)
 
 			country_capacity_factor = self.cf_getter.retrieve_capacity_factor(estimating_year, country, fuel_type)
-			age = self.get_age(estimating_year, commissioning_year)
+
+			age = np.NaN
+			if not np.isnan(commissioning_year):
+				age = self.get_age(estimating_year, commissioning_year)
+
 			aggregator = self.get_or_load_natural_resources_getter(fuel_type)
 			avg_solar_irradiance = aggregator.agg_measurements(estimating_year, lat, lon)
 
@@ -212,8 +220,9 @@ class Estimator:
 
 	def get_or_load_model(self, fuel_type):
 		if fuel_type not in self.models:
-			self.models[fuel_type] = self.load_model(fuel_type)
-		return self.models[fuel_type]
+			model, model_name = self.load_model(fuel_type)
+			self.models[fuel_type] = {'model':model, 'model_name':model_name}
+		return self.models[fuel_type]['model'], self.models[fuel_type]['model_name']
 
 
 
@@ -223,6 +232,9 @@ class Estimator:
 
 		if fuel_type == 'Solar':
 			return model_loader.load_solar_model()
+
+		if fuel_type == 'Solar_no_age':
+			return model_loader.load_solar_model_no_age()
 
 		if fuel_type == 'Hydro':
 			return model_loader.load_hydro_model()
@@ -247,8 +259,11 @@ class Estimator:
 				if not isinstance(parameter_dict[param], p_type):
 					params_type_errors[param] = p_type
 
-		assert len(missing_params) == 0, 'Missing parameters: {}'.format(', '.join(missing_params))
-		assert len(params_type_errors) == 0, '\n'.join(["Parameter {}'s type not match: {} required".format(p, t) for p,t in params_type_errors.items()])
+		if fuel_type == 'Solar' and len(missing_params) == 1 and missing_params[0] == 'commissioning_year':
+			pass
+		else:
+			assert len(missing_params) == 0, 'Missing parameters: {}'.format(', '.join(missing_params))
+			assert len(params_type_errors) == 0, '\n'.join(["Parameter {}'s type not match: {} required".format(p, t) for p,t in params_type_errors.items()])
 
 
 
@@ -257,27 +272,28 @@ class Estimator:
 		assert 'fuel_type' in kwargs, self.messages['fuel_type_missing'] + '\n' + self.messages['available_fuel_types']
 		assert kwargs['fuel_type'] in VALID_FUEL_TYPES, self.messages['fuel_type_error'] + '\n' + self.messages['available_fuel_types']
 
-		# print('In func estimates: parameter check')
 		fuel_type = kwargs['fuel_type']
 		self.parameter_sanity_check(fuel_type, kwargs)
-		
-		# print('In func estimates: feature_transformation')
+
 		final_features = self.feature_transformation(fuel_type, kwargs)
 
-		# print('In func estimates: load model')
-		model = self.get_or_load_model(fuel_type)
+		if fuel_type == 'Solar' and np.isnan(final_features[0][1]):
+			final_features = np.delete(final_features, 1, 1)
+			model, model_name = self.get_or_load_model(fuel_type + '_no_age')
+		else:
+			model, model_name = self.get_or_load_model(fuel_type)
 
-		# print('In func estimates: predict')
 		if (np.isnan(final_features).any()):
 			return np.NaN
 
-		# print('prediction: {}'.format(model.predict(final_features)[0]))
-		return model.predict(final_features)[0]
+		return model.predict(final_features)[0], model_name
 
 
 
 	def feature_transformation(self, fuel_type, all_features):
-		relevant_parameters = PARAMETER_LISTS[fuel_type]
+		relevant_parameters = PARAMETER_LISTS[fuel_type].copy()
+		if fuel_type == 'Solar' and 'commissioning_year' not in all_features:
+			del relevant_parameters['commissioning_year']
 		relevant_features = {k:all_features[k] for k,v in relevant_parameters.items()}
 		return self.feature_func_by_fuel[fuel_type](relevant_features)
 

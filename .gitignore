@@ -4,3 +4,4 @@
 # Ignore the hydro_runoff and HydroBasins directory which contains large files for now
 **/hydro_runoff
 **/HydroBasins
+**/PLATTS MARCH 2017.csv
