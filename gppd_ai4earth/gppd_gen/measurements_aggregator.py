@@ -5,13 +5,16 @@ import numpy as np
 from rasterio import features
 from affine import Affine
 import xarray as xr
-# import salem
 
 
 P = 1
 
 class MeasurementsAggregator:
 
+	'''
+	This class calculates the wind speeds and solar irradiance measurements 
+	given the location of the wind/solar farm and the year of estimation
+	'''
 
 	def __init__(self, locater = MapLocater(), data_reader = read_monthly_wind_speed):
 		self.locater = locater
@@ -38,12 +41,13 @@ class MeasurementsAggregator:
 
 
 	def agg_measurements(self, year, lat, lon):
+		'''
+		This function gets nearby measurements values, 
+		interpolate to the exact location of the wind/solar farm and aggregate the measurements into a single value
+		'''
 		year = self.formatting_int(year)
-
 		measurements = self.access_or_fetch(year)
-
 		dist_dict = self.get_distance_dict(lat,lon)   
-		#schema of distances [dist, (lat_index,lon_index), (lat, lon)]
 		results = {}
 
 		for measurement in list(measurements.keys()):
@@ -67,7 +71,9 @@ class MeasurementsAggregator:
 
 
 	def idw(self, distances, values):
-
+		'''
+		This function performs inverse distance weighted approach to interpolate the measurements of the plant location
+		'''
 		distances = np.array(distances)
 		values = np.array(values)
 
@@ -79,7 +85,9 @@ class MeasurementsAggregator:
 
 
 	def get_distance_dict(self, lat, lon):
-
+		'''
+		This function returns a dictionary that has distance between the plant location to nearby grids
+		'''
 		(lat_range, lat_index_range),(lon_range, lon_index_range) = self.locater.get_nearby_grids(lat, lon)
 
 		lat_lon_combs = list(product(lat_range,lon_range))
@@ -98,29 +106,24 @@ class MeasurementsAggregator:
 
 
 class HydroRunoffProjector(MeasurementsAggregator):
-
+	'''
+	This class calculates the aggreagted runoff value of the hydro basin
+	'''
 	def __init__(self, locater = BasinDelineator(), data_reader = read_monthly_hydro_runoff):
 		super().__init__(locater, data_reader)
-		#locater = BasinDelineator()  (lat, lon) -> subset of geodf with polygons, target_polygon_id
-		#self.data_reader = read_monthly_hydro_runoff -> xarray
-		#self.measurements_dict = {}
 
 
 
 	def area_measurements(self, year, lat, lon):
-		# print('In func area_measurements')
+
+		'''
+		This function derives the aggregated runoff measurements
+		Inputs: year, lat, lon
+		Output: summation of runoff within the drainage area
+		'''
 		year = self.formatting_int(year)
-
-		# print('In func area_measurements: fetch monthly hydro runoff')
 		measurements = self.access_or_fetch(year)
-
-		# print('In func area_measurements: delineate basin')
 		drainage_area, target_polygon_id = self.locater.delineate_basin(lat, lon)
-
-		# print(measurements)
-		# print(drainage_area)
-
-		# print('In func area_measurements: clip roi')
 		measurements = self.add_shape_coord_from_data_array(measurements, drainage_area['geometry'], "mask")
 		cropped_measurements = measurements.where(measurements.mask.notnull(), other=np.nan)
 
@@ -133,14 +136,7 @@ class HydroRunoffProjector(MeasurementsAggregator):
 		for drainage_measurement in HYDRO_RUNOFF_MEASUREMENTS:
 			results[drainage_measurement] = np.nansum(cropped_measurements[drainage_measurement])
 
-		# print('In func area_measurements: {}'.format(results))
 		return results
-
-
-
-	# def clip_roi(self, array, shape):
-	# 	return array.salem.roi(shape = shape)
-
 
 
 	def transform_from_latlon(self, lat, lon):
@@ -156,29 +152,10 @@ class HydroRunoffProjector(MeasurementsAggregator):
 
 	def rasterize(self, shapes, coords, latitude='lat', longitude='lon',
 				  fill=np.nan, **kwargs):
-		"""Rasterize a list of (geometry, fill_value) tuples onto the given
+		'''Rasterize a list of (geometry, fill_value) tuples onto the given
 		xray coordinates. This only works for 1d latitude and longitude
 		arrays.
-
-		arguments:
-		---------
-		: **kwargs (dict): passed to `rasterio.rasterize` function
-
-		attrs:
-		-----
-		:transform (affine.Affine): how to translate from latlon to ...?
-		:raster (numpy.ndarray): use rasterio.features.rasterize fill the values
-		  outside the .shp file with np.nan
-		:spatial_coords (dict): dictionary of {"X":xr.DataArray, "Y":xr.DataArray()}
-		  with "X", "Y" as keys, and xr.DataArray as values
-
-		returns:
-		-------
-		:(xr.DataArray): DataArray with `values` of nan for points outside shapefile
-		  and coords `Y` = latitude, 'X' = longitude.
-
-
-		"""
+		'''
 		transform = self.transform_from_latlon(coords[latitude], coords[longitude])
 		out_shape = (len(coords[latitude]), len(coords[longitude]))
 		raster = features.rasterize(shapes, out_shape=out_shape,
@@ -190,25 +167,14 @@ class HydroRunoffProjector(MeasurementsAggregator):
 
 
 	def add_shape_coord_from_data_array(self, xr_da, shp_gpd, coord_name):
-		""" Create a new coord for the xr_da indicating whether or not it 
+		''' Create a new coord for the xr_da indicating whether or not it 
 			 is inside the shapefile
 
 			Creates a new coord - "coord_name" which will have integer values
 			 used to subset xr_da for plotting / analysis/
+		'''
 
-			Usage:
-			-----
-			precip_da = add_shape_coord_from_data_array(precip_da, "awash.shp", "awash")
-			awash_da = precip_da.where(precip_da.awash==0, other=np.nan) 
-		"""
-		# 1. read in shapefile
-	#     shp_gpd = gpd.read_file(shp_path)
-
-		# 2. create a list of tuples (shapely.geometry, id)
-		#    this allows for many different polygons within a .shp file (e.g. States of US)
 		shapes = [(shape, n) for n, shape in enumerate(shp_gpd.geometry)]
-
-		# 3. create a new coord in the xr_da which will be set to the id in `shapes`
 		xr_da[coord_name] = self.rasterize(shapes, xr_da.coords, 
 								   longitude='lon', latitude='lat')
 

@@ -9,24 +9,24 @@ RENEWABLE_FUEL_TYEPS = ['Hydro','Wind','Solar']
 
 class AvgCapacityFactorRetriever:
     
-    
+    '''
+    This class retrieve capacity factor given country, year and fuel type
+    '''
     
     def __init__(self):
         
         self.combustion_cf_lookup_dict = load_files.load_combustion_cf()
-        # self.total_cap_oecd = load_files.load_total_cap_oecd()
-        # self.total_cap_platts = load_files.load_total_cap_platts()
         self.renewable_cf_lookup_dict = {'Wind': load_files.load_wind_cf(),
                                          'Solar': load_files.load_solar_cf(),
                                          'Hydro': load_files.load_hydro_cf()}
-        # self.country_name_thesaurus = load_files.make_country_names_thesaurus()
-        # self.fuel_type_thesaurus = load_files.make_fuel_type_thesaurus()
         self.valid_country_names = set(thesaurus_projection.COUNTRY_NAME_THESAURUS['primary_country_name'])
     
     
     
     def retrieve_capacity_factor(self, year, country, fuel):
-        
+        '''
+        This function retrieves capacity factor according to the fuel type
+        '''
         self.check_country_name(country)
         
         year = str(year)
@@ -47,13 +47,10 @@ class AvgCapacityFactorRetriever:
     
 
     def combustion_capacity_factor(self, year, country, fuel):
+        '''
+        This function returns capacity factors of combustion power plants based on year, country and fuel type
+        '''
         days_of_year = self.num_days_of_year(year)
-        
-        # numerator = self.get_total_gen(year, country, fuel)
-        # if country == 'United Kingdom':
-        #     denominator = self.get_total_cap_oecd(year, country, fuel)
-        # else:
-        #     denominator = self.get_total_cap_platts(country, fuel)
         country_cf = self.combustion_cf_lookup_dict[year][country][fuel]
         
         return country_cf
@@ -61,6 +58,9 @@ class AvgCapacityFactorRetriever:
 
 
     def renewable_capacity_factor(self, year, country, fuel):
+        '''
+        This function returns capacity factors of renewables power plants based on year, country and fuel type
+        '''
         year = int(year)
         days_of_year = self.num_days_of_year(year)
         cf_lookup_table = self.renewable_cf_lookup_dict[fuel]
@@ -81,12 +81,19 @@ class AvgCapacityFactorRetriever:
 
 
     def check_country_name(self, country):
+        '''
+        This function checks the country name and makes sure the given country name is consistent 
+        with the naming convention in the Global Power Plant Database
+        '''
         country_not_available_message = '{} not found. Valid country names {}'.format(country, self.valid_country_names)
         assert country in self.valid_country_names, country_not_available_message
 
 
 
     def check_year_availability(self, year, year_list, plant_category):
+        '''
+        This function checks the year of estimation and ensures it does not exceeds the year range of estimation
+        '''
         joined_year_list = ', '.join(year_list)
         year_not_available_message = 'Years beyond {} are not available for {}'.format(joined_year_list, plant_category)
         assert year in year_list, year_not_available_message
@@ -97,29 +104,9 @@ class AvgCapacityFactorRetriever:
         return 366 if int(year) % 4 == 0 else 365
     
 
-
-    # def get_total_gen(self, year, country, fuel):
-    #     return self.total_gen[year][country][fuel]
-
-
     
     def isNan(self, value):
         return False if value == value else True
-    
-    
-    
-    # def get_total_cap_oecd(self, year, country, fuel):
-    #     oecd_country_name = thesaurus_projection.name_projection('primary_country_name', country, 'oecd_library_country_name')
-    #     if self.isNan(oecd_country_name):
-    #         return -1
-        
-    #     oecd_fuel_type = thesaurus_projection.fuel_projection('primary_fuel_type', fuel, 'OECD_fuel_type')
-    #     total_cap = self.total_cap_oecd.loc[(self.total_cap_oecd['COUNTRY'] == oecd_country_name) & 
-    #                                         (self.total_cap_oecd['PRODUCT'] == oecd_fuel_type), year].values[0]
-    #     if total_cap in ['..','0']:
-    #         return -1
-        
-    #     return int(total_cap)
     
     
     
@@ -130,13 +117,3 @@ class AvgCapacityFactorRetriever:
     
     def fuel_projection(self, source_format, fuel, target_format):
         return self.fuel_type_thesaurus.loc[self.fuel_type_thesaurus[fource_format] == fuel,target_format].values[0]
-    
-    
-    
-    # def get_total_cap_platts(self, country, fuel):
-    #     platts_country_name = thesaurus_projection.name_projection('primary_country_name', country, 'platts_country_name')
-    #     platts_fuel_type = thesaurus_projection.fuel_projection('primary_fuel_type', fuel, 'PLATTS_fuel_type')
-    #     total_cap = self.total_cap_platts.loc[(self.total_cap_platts['COUNTRY'] == platts_country_name) & 
-    #                                      (self.total_cap_platts['FUEL'] == platts_fuel_type) & 
-    #                                      (self.total_cap_platts['STATUS'] == 'OPR'),'MW'].sum()
-    #     return total_cap

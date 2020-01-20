@@ -184,12 +184,18 @@ class BasinDelineator:
 
 
 	def rank_candidate_by_dist(self,lat,lon):
+		'''
+		This function ranks polygons by their distance to the provided coordinates
+		'''
 		self.geodf['temp_distance'] = np.sqrt((self.geodf['centroid_lat'] - lat) ** 2 + (self.geodf['centroid_lon'] - lon) ** 2)
 		return self.geodf.sort_values('temp_distance').head(50)
 		
 		
 		
 	def get_target_polygon(self,lat,lon):
+		'''
+		This function gets the target polygon from distance-ranked polygons that contains the provided coordinates.
+		'''
 		candidates = self.rank_candidate_by_dist(lat,lon)
 		point = geometry.Point(lon,lat)
 		for basin_id in candidates['HYBAS_ID']:
@@ -209,6 +215,9 @@ class BasinDelineator:
 
 
 	def get_drainage_polygons_bfs(self, target_polygon_id):
+		'''
+		This function traces back all the upstreaming polygons and therefore delineates the whole basin area
+		'''
 		results = []
 		queue = []
 		visited = set()

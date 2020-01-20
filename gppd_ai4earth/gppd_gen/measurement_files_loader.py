@@ -21,6 +21,9 @@ def get_files_path_in_dir(directory):
 
 
 def read_measurements_from_netcdf(year, measurements, path):
+	'''
+	Read netcdf files from disk
+	'''
 	measurements_dict = {}
 
 	measurements_file_path = os.path.join(path, str(year))
@@ -35,6 +38,9 @@ def read_measurements_from_netcdf(year, measurements, path):
 
 
 def read_measurements_from_xarray(year, path):
+	'''
+	Read xarray files from disk
+	'''
 	measurements_file_path = os.path.join(path, str(year))
 	file_path_list = get_files_path_in_dir(measurements_file_path)
 	return xr.open_dataset(file_path_list[0])
