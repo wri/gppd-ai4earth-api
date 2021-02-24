@@ -121,7 +121,7 @@ class Estimator:
 
 	def gas_feature_transformation(self):
 		'''
-		The wind_feature_transformation function transforms raw fields into features 
+		The gas_feature_transformation function transforms raw fields into features 
 		that the machine learning models are trained on.
 		'''
 		def inner_func(all_features):

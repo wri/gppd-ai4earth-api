@@ -1,0 +1,9 @@
+{
+	"fuel_type": "Gas",
+	"capacity_mw": 25,
+	"estimating_year": 2016,
+	"commissioning_year": 2013,
+	"country": "United States of America",
+	"turbine_type": "GT",
+	"expected_generation": 109.091
+}

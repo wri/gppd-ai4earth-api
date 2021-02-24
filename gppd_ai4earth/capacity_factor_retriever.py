@@ -4,7 +4,7 @@ import numpy as np
 
 COMBUSTION_CF_YEAR_RANGE = [str(y) for y in range(2014,2018)]
 RENEWABLE_CF_YEAR_RANGE = [str(y) for y in range(2000,2019)]
-COMBUSTION_FUEL_TYEPS = ['Coal','Oil','Gas']
+COMBUSTION_FUEL_TYEPS = ['Coal','Oil','Gas', 'Nuclear', 'Biomass', 'Waste', 'Geothermal', 'Tide', 'Other']
 RENEWABLE_FUEL_TYEPS = ['Hydro','Wind','Solar']
 
 class AvgCapacityFactorRetriever:
@@ -116,4 +116,4 @@ class AvgCapacityFactorRetriever:
     
     
     def fuel_projection(self, source_format, fuel, target_format):
-        return self.fuel_type_thesaurus.loc[self.fuel_type_thesaurus[fource_format] == fuel,target_format].values[0]
+        return self.fuel_type_thesaurus.loc[self.fuel_type_thesaurus[source_format] == fuel,target_format].values[0]

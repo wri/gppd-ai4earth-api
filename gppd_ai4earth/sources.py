@@ -1,6 +1,7 @@
 import os
 
-__ROOT_PATH = os.getcwd()
+#__ROOT_PATH = os.getcwd()
+__ROOT_PATH = os.path.abspath(os.path.join(__file__, os.pardir, os.pardir, 'models'))
 __SOURCE_PATH = os.path.join(__ROOT_PATH,'source_files')
 
 def __source_file_path(file_name):
@@ -9,7 +10,7 @@ def __source_file_path(file_name):
 # TOTAL_GEN_PATH = __source_file_path('gen_by_year_country_fuel.json')
 # TOTAL_CAP_OECD_PATH = __source_file_path('elecap.csv')
 # TOTAL_CAP_PLATTS_PATH = __source_file_path('PLATTS MARCH 2017.csv')
-COUNTRY_CAPACITY_FACTORS_PATH = __source_file_path('preprocessed_combustion_capacity_factors.json')
+COUNTRY_CAPACITY_FACTORS_PATH = __source_file_path('preprocessed_capacity_factors.json')
 
 NAME_THESAURUS_PATH = __source_file_path('country_information_updated_v4.csv')
 FUEL_THESAURUS_PATH = __source_file_path('fuel_thesaurus.csv')

@@ -1,0 +1,9 @@
+{
+  "fuel_type": "Solar",
+  "capacity_mw": 25,
+  "estimating_year": 2016,
+  "country": "United States of America",
+  "lat": 45,
+  "lon": -110,
+  "expected_generation": 37.957
+}

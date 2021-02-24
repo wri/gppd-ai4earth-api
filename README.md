@@ -1,5 +1,74 @@
 # gppd-ai4earth-api
 
+## Usage, first time, needing to build docker image
+
+```
+# (optional) setup python environment
+# virtualenv --python=python3.7 venv
+# . venv/bin/activate && pip install -r requirements
+
+# obtain HydroBasins dataset
+make models/source_files/HydroBasins
+
+
+# obtain hydro runoff
+#  (edit Makefile with your CDS key first)
+make models/source_files/hydro_runoff
+
+# ensure docker server is running
+sudo systemctl start docker
+
+# build the docker image
+docker build .
+
+# label image
+docker image tag <image_id> ai4e_13:latest
+
+```
+
+
+## Usage, for Global Power Plant Database
+
+```
+# obtain fresh copy of GPPD
+make models/global_power_plant_database.csv
+
+# ensure docker server is running
+sudo systemctl start docker
+
+# start docker API container
+./dockerup.sh
+
+# run tests
+make test
+
+# (optional) perform estimates - go to the models folder
+cd models
+
+# estimate baseline
+python estimate_baseline.py
+
+# estimate hydro
+python estimate_hydro.py
+
+# estimate solar
+python estimate_solar.py
+
+# estimate wind
+python estimate_wind.py
+
+# merge estimates into GPPD
+python make_gppd.py
+
+
+# ... later to stop the API container
+./dockerdown.sh
+
+
+```
+
+
+
 Notes on the generation estimation API.<br/>
 
 API Usage:<br/>
@@ -32,4 +101,6 @@ lon: The longitude of the power plant. A numerical value (can be integer or deci
 turbine_type: The type of gas turbines used by the power plant. Should be one of ['CCGT', 'CS', 'FC', 'GT', 'IC', 'ST'] (Definition for each of the turbine types can be found in our methodology documentation as listed in this readme file)<br/>
 
 Relevant Links:<br/>
-Methodology documentation (WIP) - https://docs.google.com/document/d/1XqkXGpUraoxI6eJdmrlsE_2FMX3XEFBBaJIWWiEb5QI/edit?usp=sharing<br/>
+
+Methodology is available in this document: [Estimating Power Plant Generation in the Global Power Plant Database (2020)](https://www.wri.org/publication/estimating-power-plant-generation-global-power-plant-database)
+
