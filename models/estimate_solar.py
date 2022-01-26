@@ -15,7 +15,7 @@ API_POST_JOB_URL = 'http://localhost:5151/v1/my_api/tasker/estimate'
 API_FETCH_RESULT_URL = 'http://localhost:5151/v1/my_api/tasker/task/'
 
 OUTPUT_CSV_FILE = 'output/solar_estimates.csv'
-OUTPUT_FIELDS = ['gppd_idnr', 'year', 'reported_generation', 'estimated_generation', 'model_name'] 
+OUTPUT_FIELDS = ['gppd_idnr', 'year', 'reported_generation', 'estimated_generation', 'model_name']
 
 
 # Load the global power plant database
@@ -80,6 +80,7 @@ with open(OUTPUT_CSV_FILE, 'a') as fout:
 	writer = csv.DictWriter(fout, fieldnames=OUTPUT_FIELDS)
 	if OVERRIDE_SKIP_COUNT == 0:
 		writer.writeheader()
+		pass
 
 	for i, pp in enumerate(gppd):
 		if i < OVERRIDE_SKIP_COUNT:
@@ -87,9 +88,12 @@ with open(OUTPUT_CSV_FILE, 'a') as fout:
 		if pp['primary_fuel'] != 'Solar':
 			continue
 		print('plant #', i)
-		for year in range(2013, 2016):
+		for year in range(2013, 2018):
+			row = transform_solar_row(pp, year)
+			if row['country'] == 'United States of America':
+				continue
 			try:
-				gwh, model_name = run_estimate(transform_solar_row(pp, year))
+				gwh, model_name = run_estimate(row)
 			except:
 				continue
 			else:

@@ -23,7 +23,7 @@ def run_estimate(data):
 countries = sorted(list(set([(pp['country'], pp['country_long']) for pp in gppd ])), key=lambda x: x[0])
 fuels = sorted(list(set([pp['primary_fuel'] for pp in gppd ])))
 
-with open(OUTPUT_CSV_FILE, 'w') as fout:
+with open(OUTPUT_CSV_FILE, 'w', newline='') as fout:
 	writer = csv.DictWriter(fout, fieldnames=OUTPUT_FIELDS)
 	writer.writeheader()
 

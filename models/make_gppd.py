@@ -92,9 +92,8 @@ for pp in gppd:
 			pp[f'estimated_generation_note_{yr}'] = model
 
 	new_gppd.append(pp)
-	
 
-OUTPUT_CSV_FILE = 'global_power_plant_database_merged.csv'
+OUTPUT_CSV_FILE = 'global_power_plant_database_merged_final.csv'
 OUTPUT_FIELDS = [
 	'country',
 	'country_long',
@@ -119,6 +118,8 @@ OUTPUT_FIELDS = [
 	'generation_gwh_2015',
 	'generation_gwh_2016',
 	'generation_gwh_2017',
+	'generation_gwh_2018',
+	'generation_gwh_2019',
 	'generation_data_source',
 	'estimated_generation_gwh_2013',
 	'estimated_generation_gwh_2014',

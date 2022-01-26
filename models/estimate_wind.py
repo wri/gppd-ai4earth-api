@@ -78,6 +78,7 @@ with open(OUTPUT_CSV_FILE, 'a') as fout:
 	writer = csv.DictWriter(fout, fieldnames=OUTPUT_FIELDS)
 	if OVERRIDE_SKIP_COUNT == 0:
 		writer.writeheader()
+		pass
 
 	for i, pp in enumerate(gppd):
 		if i < OVERRIDE_SKIP_COUNT:
@@ -87,7 +88,7 @@ with open(OUTPUT_CSV_FILE, 'a') as fout:
 		if not pp['commissioning_year']:
 			continue
 		print('plant #', i)
-		for year in range(2013, 2016):
+		for year in range(2013, 2018):
 			try:
 				gwh, model_name = run_estimate(transform_wind_row(pp, year))
 			except:

@@ -34,7 +34,7 @@ def run_estimate(data):
     response_received = False
     i = 0 
     while not (response_received or i > 120):
-        i = i + 1 
+        i = i + 1
         with requests.get(API_FETCH_RESULT_URL + task.rstrip()) as rr:
             assert rr.ok
             d = json.loads(rr.text)
@@ -53,7 +53,7 @@ def run_estimate(data):
         num_days_in_year = 365
     else:
         num_days_in_year = 366
-    gen = float(value_str) * (float(data['capacity_mw']) / 1000. * 24 * num_days_in_year) 
+    gen = float(value_str) * (float(data['capacity_mw']) / 1000. * 24 * num_days_in_year)
     return gen, model_name
 
 
@@ -77,10 +77,11 @@ def transform_hydro_row(row, est_year):
     return outd
 
 
-with open(OUTPUT_CSV_FILE, 'a') as fout:
+with open(OUTPUT_CSV_FILE, 'a', newline='') as fout:
 	writer = csv.DictWriter(fout, fieldnames=OUTPUT_FIELDS)
 	if OVERRIDE_SKIP_COUNT == 0:
 		writer.writeheader()
+		pass
 
 	for i, pp in enumerate(gppd):
 		if i < OVERRIDE_SKIP_COUNT:
@@ -88,9 +89,12 @@ with open(OUTPUT_CSV_FILE, 'a') as fout:
 		if pp['primary_fuel'] != 'Hydro':
 			continue
 		print('plant #', i)
-		for year in range(2013, 2016):
+		for year in range(2013, 2018):
+			row = transform_hydro_row(pp, year)
+			if row['country'] == 'United States of America':
+				continue
 			try:
-				gwh, model_name = run_estimate(transform_hydro_row(pp, year))
+				gwh, model_name = run_estimate(row)
 			except:
 				continue
 			else:
